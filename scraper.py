@@ -3,8 +3,8 @@ import requests
 from datetime import datetime, timedelta
 
 # --- Config ---
-API_KEY = os.getenv("GOOGLE_CSE_API_KEY")  # Replace with your API key
-SITE_ID = os.getenv("GOOGLE_CSE_SITE_ID")   # Replace with your CSE ID (e.g., "YOUR_CSE_ID")
+API_KEY = os.getenv("GOOGLE_API_KEY")  # Replace with your API key
+SITE_ID = os.getenv("CUSTOM_SEARCH_ENGINE_ID")   # Replace with your CSE ID (e.g., "YOUR_CSE_ID")
 OUTPUT_FILE = "top_drone_incidents.txt"
 TARGET_SEARCH_QUERIES = [
     "UAV drone Lidar last month",
