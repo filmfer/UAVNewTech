@@ -1,56 +1,78 @@
+import os
 import requests
 from datetime import datetime, timedelta
-import os
+import time
 
 # --- Config ---
-API_KEY = os.getenv("GOOGLE_CSE_API_KEY")  # From GitHub Secrets
-CX = os.getenv("GOOGLE_CSE_SITE_ID")      # From GitHub Secrets
-QUERY_1 = "UAV drone LiDAR"
-QUERY_2 = "LiDAR agriculture"
-QUERY_3 = "forest fire detection drones"
-QUERY_4 = "agriculture remote sensing"
-QUERY_5 = "forest remote sensing managment"
-QUERY_6 = "LiDAR forest"
-QUERY_6 = "Drone science news"
+API_KEY = os.getenv("GOOGLE_CSE_API_KEY")  # Replace with your API key
+SITE_ID = os.getenv("GOOGLE_CSE_SITE_ID")   # Replace with your CSE ID (e.g., "YOUR_CSE_ID")
+OUTPUT_FILE = "top_drone_incidents.txt"
+TARGET_SEARCH_QUERIES = [
+    "UAV drone LiDAR last month",
+    "LiDAR agriculture last month",
+    "forest fire detection drones last month",
+    "agriculture remote sensing last month",
+    "forest remote sensing management last month",
+]
 
-# --- Fetch Google Search Results ---
-def fetch_google_results(query, month_back=30):
-    url = f"https://www.googleapis.com/customsearch/v1?q={query}&key={API_KEY}&cx={CX}"
-    params = {"dateRestrict": f"{datetime.now() - timedelta(days=month_back)}"}
-    response = requests.get(url, params=params)
-    print(f"Query: {query}\nResponse: {response.json()}")  # Debug log
-    return response.json()
-
-# --- Scrape Top 5 Results ---
-def scrape_top_results(query):
-    results = fetch_google_results(query)
-    if not results or "items" not in results:
-        print(f"No results for: {query}")
+def fetch_google_results(query):
+    """Fetch top 5 results from Google Custom Search API."""
+    url = f"https://www.googleapis.com/customsearch/v1"
+    params = {
+        "key": API_KEY,
+        "cx": SITE_ID,  # Your CSE ID
+        "q": query,
+        "num": 5,
+        "searchType": "web",
+        "tbm": "isch",  # Optional: Add image search if needed
+    }
+    try:
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        return response.json().get("items", [])
+    except Exception as e:
+        print(f"Error fetching {query}: {e}")
         return []
 
-    # Extract top 5 links
-    top_links = []
-    for item in results["items"][:5]:
-        top_links.append(item.get("link", ""))
+def get_last_month_results():
+    """Fetch all relevant results from the last month."""
+    last_month = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-01")
+    current_date = datetime.now().strftime("%Y-%m-%d")
 
-    return top_links
+    with open(OUTPUT_FILE, "r+") as f:
+        existing_links = set(line.strip() for line in f if line.strip())
 
-# --- Main Execution ---
+    new_results = []
+    for query in TARGET_SEARCH_QUERIES:
+        results = fetch_google_results(query)
+        for result in results:
+            link = result.get("link")
+            if link and link not in existing_links:
+                new_results.append(link)
+
+    return sorted(new_results, key=lambda x: datetime.strptime(x.split("/")[-1].split("?")[0], "%Y-%m-%d"))
+
+def main():
+    """Run daily at 8 AM (Azores timezone)."""
+    # Check if running in Azores timezone (~UTC+1)
+    from pytz import timezone
+    azores = timezone("Europe/Lisbon")
+    now_azores = datetime.now(azores)
+
+    if not now_azores.hour == 8:
+        print(f"Skipping (not 8 AM in Azores). Current time: {now_azores}")
+        return
+
+    try:
+        new_links = get_last_month_results()
+        with open(OUTPUT_FILE, "a") as f:
+            for link in new_links[:5]:  # Top 5
+                f.write(link + "\n")
+                print(f"Added: {link}")
+
+        print("✅ Daily scrape completed!")
+    except Exception as e:
+        print(f"❌ Error: {e}")
+
 if __name__ == "__main__":
-    queries = [QUERY_1, QUERY_2, QUERY_3, QUERY_4, QUERY_5, QUERY_6]
-    all_results = {}
-
-    for query in queries:
-        print(f"Searching: {query}")
-        results = scrape_top_results(query)
-        all_results[query] = results
-
-    # --- Save to Text File ---
-    filename = "top_drone_incidents.txt"
-    with open(filename, "w") as f:
-        for query, links in all_results.items():
-            f.write(f"=== {query} ===\n")
-            for link in links[:5]:
-                f.write(link + "\n\n")
-
-    print(f"Saved results to: {filename}")
+    main()
