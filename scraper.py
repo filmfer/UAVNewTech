@@ -11,7 +11,7 @@ QUERY_3 = "forest fire detection drones"
 QUERY_4 = "agriculture remote sensing"
 QUERY_5 = "forest remote sensing managment"
 QUERY_6 = "LiDAR forest"
-QUERY_6 = "Drone sciene news"
+QUERY_6 = "Drone science news"
 
 # --- Fetch Google Search Results ---
 def fetch_google_results(query, month_back=30):
