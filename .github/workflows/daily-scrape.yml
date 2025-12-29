@@ -1,16 +1,16 @@
-name: Daily Drone Remote Sensing Scraper
+name: Daily Drone Incident Scraper
 
 on:
   schedule:
-    - cron: '0 7,8 * * *'  # Runs at ~7 AM and ~8 AM UTC (Azores is UTC-1)
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 8 * * 1'  # Runs daily at 8 AM Azores timezone (UTC-1)
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  scrape:
+  scrape-and-upload:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4  # Updated to v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -20,30 +20,29 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests beautifulsoup4
 
       - name: Run scraper script
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}  # Store API key in GitHub Secrets
-          CUSTOM_SEARCH_ENGINE_ID: ${{ secrets.CUSTOM_SEARCH_ENGINE_ID }}
+        id: scrape
         run: |
           python scraper.py
+          echo "::set-output name=needs_commit::$?"
+        env:
+          GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
+          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
 
-      - name: Upload results to output file
-        uses: actions/upload-artifact@v3
-        with:
-          name: daily-links
-          path: top_drone_remote_sensing_links.txt
-
-      - name: Commit and push changes (if new links)
-        if: success()
+      - name: Commit changes if needed
+        if: steps.scrape.outputs.needs_commit == 'true'
         run: |
-          # Check if the file has new content
-          NEW_CONTENT=$(grep -q "https://" scraper.log && echo "true" || echo "false")
-          if [ "$NEW_CONTENT" = "true" ]; then
-            git config --global user.name 'GitHub Actions'
-            git config --global user.email 'actions@github.com'
-            git add .
-            git commit -m "Update drone remote sensing links"
-            git push
-          fi
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Daily drone incident update [skip ci]"
+          git push
+
+      # Use v4+ for artifact upload (if needed)
+      - name: Upload results as artifact
+        uses: actions/upload-artifact@v3  # Still works, but prefer v4+
+        with:
+          name: daily_drone_incidents
+          path: top_drone_incidents.txt
