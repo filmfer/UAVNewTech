@@ -1,18 +1,17 @@
 import os
 import requests
 from datetime import datetime, timedelta
-import time
 
 # --- Config ---
 API_KEY = os.getenv("GOOGLE_CSE_API_KEY")  # Replace with your API key
 SITE_ID = os.getenv("GOOGLE_CSE_SITE_ID")   # Replace with your CSE ID (e.g., "YOUR_CSE_ID")
 OUTPUT_FILE = "top_drone_incidents.txt"
 TARGET_SEARCH_QUERIES = [
-    "UAV drone LiDAR last month",
+    "UAV drone Lidar last month",
     "LiDAR agriculture last month",
     "forest fire detection drones last month",
-    "agriculture remote sensing last month",
-    "forest remote sensing management last month",
+    "agriculture remote sensing UAV",
+    "forest remote sensing UAV",
 ]
 
 def fetch_google_results(query):
@@ -24,7 +23,6 @@ def fetch_google_results(query):
         "q": query,
         "num": 5,
         "searchType": "web",
-        "tbm": "isch",  # Optional: Add image search if needed
     }
     try:
         response = requests.get(url, params=params)
@@ -36,11 +34,14 @@ def fetch_google_results(query):
 
 def get_last_month_results():
     """Fetch all relevant results from the last month."""
-    last_month = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-01")
-    current_date = datetime.now().strftime("%Y-%m-%d")
+    # Ensure output file exists
+    with open(OUTPUT_FILE, "a+") as f:  # 'a+' mode ensures file is created if it doesn't exist
+        pass
 
-    with open(OUTPUT_FILE, "r+") as f:
-        existing_links = set(line.strip() for line in f if line.strip())
+    existing_links = set()
+    if os.path.exists(OUTPUT_FILE):
+        with open(OUTPUT_FILE, "r") as f:
+            existing_links = {line.strip() for line in f}
 
     new_results = []
     for query in TARGET_SEARCH_QUERIES:
@@ -53,20 +54,11 @@ def get_last_month_results():
     return sorted(new_results, key=lambda x: datetime.strptime(x.split("/")[-1].split("?")[0], "%Y-%m-%d"))
 
 def main():
-    """Run daily at 8 AM (Azores timezone)."""
-    # Check if running in Azores timezone (~UTC+1)
-    from pytz import timezone
-    azores = timezone("Europe/Lisbon")
-    now_azores = datetime.now(azores)
-
-    if not now_azores.hour == 8:
-        print(f"Skipping (not 8 AM in Azores). Current time: {now_azores}")
-        return
-
+    """Run daily scrape."""
     try:
         new_links = get_last_month_results()
         with open(OUTPUT_FILE, "a") as f:
-            for link in new_links[:5]:  # Top 5
+            for link in new_links[:5]:
                 f.write(link + "\n")
                 print(f"Added: {link}")
 
