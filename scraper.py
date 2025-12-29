@@ -1,149 +1,119 @@
 import os
-import requests
 from datetime import datetime, timedelta
-import logging
-from googleapiclient.discovery import build
+import requests
+from bs4 import BeautifulSoup
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('scraper.log'),
-        logging.StreamHandler()
-    ]
-)
+# --- Constants ---
+SEARCH_KEYWORDS = [
+    "drone UAV safety incidents",
+    "Lidar malfunctions in agriculture",
+    "forest fire detection drone failures",
+    "remote sensing agriculture accidents"
+]
+API_KEY = os.getenv("GOOGLE_CSE_API_KEY")  # Set this in GitHub Secrets
+CSE_ID = os.getenv("GOOGLE_CSE_ID")        # Set this in GitHub Secrets
 
-def get_google_search_results(query, max_results=5):
-    """Fetch search results from Google Custom Search API"""
+def fetch_google_search(query, month_back=1):
+    """Fetch Google search results using CSE API."""
     try:
-        # Get secrets from environment variables
-        api_key = os.getenv('GOOGLE_API_KEY')
-        cse_id = os.getenv('CUSTOM_SEARCH_ENGINE_ID')
+        url = f"https://www.googleapis.com/customsearch/v1?q={query}&key={API_KEY}&cx={CSE_ID}"
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
 
-        if not api_key or not cse_id:
-            raise ValueError("Missing required Google Custom Search API credentials")
+        # Filter for last month
+        current_month = datetime.now().month
+        one_month_ago = (datetime.now() - timedelta(days=30)).replace(hour=0, minute=0, second=0)
 
-        service = build('customsearch', 'v1', developerKey=api_key)
-
-        # Calculate date range for last month
-        end_date = datetime.now().strftime('%Y-%m-%d')
-        start_date = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
-
-        # Search query with date filter
-        query_params = {
-            'q': f"{query} site:google.com",
-            'cx': cse_id,
-            'startDate': start_date,
-            'endDate': end_date,
-            'num': max_results * 2,  # Get more results to filter by date
-            'searchType': 'any'
-        }
-
-        response = service.cse().list(**query_params).execute()
-        return response.get('items', [])
-
+        results = []
+        for item in data.get("items", []):
+            if "datePublished" in item:
+                published_date = datetime.strptime(item["datePublished"], "%Y-%m-%d")
+                if current_month >= one_month_ago.month or (current_month == one_month_ago.month and published_date.day >= one_month_ago.day):
+                    results.append({
+                        "title": item.get("title", ""),
+                        "link": item.get("link", ""),
+                        "description": item.get("snippet", "")
+                    })
+        return results
     except Exception as e:
-        logging.error(f"Error fetching search results: {str(e)}")
-        raise
+        print(f"Error fetching Google search: {e}")
+        return []
 
-def scrape_drone_related_outbreaks():
-    """Scrape top 5 major outbreaks related to drones, LiDAR, and agriculture/forest remote sensing"""
-    keywords = [
-        "drone accidents",
-        "LiDAR safety incidents",
-        "agriculture drone malfunctions",
-        "forest fire detection drones",
-        "remote sensing failures"
-    ]
-
+def scrape_drone_incidents():
+    """Scrape top 5 major incidents from last month."""
     all_results = []
-    for keyword in keywords:
-        results = get_google_search_results(keyword)
-        # Filter by date (last month) and add to our collection
-        for item in results:
-            if 'date' in item and datetime.strptime(item['date'], '%Y-%m-%d').year == datetime.now().year:
-                all_results.append({
-                    'title': item.get('title', ''),
-                    'link': item.get('link', ''),
-                    'description': item.get('snippet', '')
-                })
+    for keyword in SEARCH_KEYWORDS:
+        results = fetch_google_search(keyword)
+        all_results.extend(results)
 
-    # Sort by date (newest first) and return top 5 unique results
+    # Remove duplicates (by link) and sort by date
     unique_results = []
     seen_links = set()
 
     for result in all_results:
-        if result['link'] not in seen_links:
-            seen_links.add(result['link'])
+        if result["link"] not in seen_links:
+            seen_links.add(result["link"])
             unique_results.append(result)
 
-    # Sort by date (most recent first)
-    unique_results.sort(key=lambda x: datetime.strptime(x.get('date', ''), '%Y-%m-%d'), reverse=True)
+    # Sort by date (newest first)
+    unique_results.sort(key=lambda x: datetime.strptime(x.get("datePublished", ""), "%Y-%m-%d"), reverse=True)
 
     return unique_results[:5]
 
-def save_results_to_file(results, filename='top_drone_remote_sensing_links.txt'):
-    """Save results to a text file"""
+def save_to_file(results, filename="top_drone_incidents.txt"):
+    """Save results to a text file."""
     try:
-        with open(filename, 'w') as f:
+        with open(filename, "w") as f:
             for i, result in enumerate(results, 1):
                 f.write(f"{i}. {result['title']}\n")
                 f.write(f"   Link: {result['link']}\n")
                 f.write(f"   Description: {result['description']}\n\n")
 
-        logging.info(f"Successfully saved {len(results)} results to {filename}")
+        print("✅ Results saved successfully.")
     except Exception as e:
-        logging.error(f"Error saving results: {str(e)}")
-        raise
+        print(f"❌ Error saving file: {e}")
 
 def check_for_new_content(filename):
-    """Check if the output file has new content since last run"""
+    """Check if new content was added since last run."""
     try:
-        # Get current timestamp
-        current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-
-        with open(filename, 'r') as f:
+        with open(filename, "r") as f:
             lines = f.readlines()
 
-        # Check if we have any links from today
+        # Check if any link from today exists
+        current_date = datetime.now().strftime("%Y-%m-%d")
         has_today_links = any(
-            line.strip().startswith('1. ') and datetime.strptime(line.split('.')[0].split()[1], '%Y-%m-%d').year == datetime.now().year
+            line.strip().startswith("1. ") and current_date in line
             for line in lines
         )
 
         return not has_today_links
-
     except Exception as e:
-        logging.error(f"Error checking file content: {str(e)}")
-        raise False
+        print(f"❌ Error checking file: {e}")
+        return False
 
 def main():
-    """Main execution function"""
+    """Main execution."""
     try:
-        # Get search results
-        logging.info("Starting drone related outbreak search...")
-        results = scrape_drone_related_outbreaks()
-
+        results = scrape_drone_incidents()
         if not results:
-            logging.warning("No relevant results found")
-            return
+            print("⚠️ No results found.")
+            return False  # GitHub Actions will skip commit
 
-        logging.info(f"Found {len(results)} relevant results")
-
-        # Save to file
-        save_results_to_file(results)
-
-        # Check if we need to commit changes
-        filename = 'top_drone_remote_sensing_links.txt'
+        save_to_file(results)
+        filename = "top_drone_incidents.txt"
         needs_commit = check_for_new_content(filename)
 
         if needs_commit:
-            logging.info("New content found - committing changes")
-            return True  # Indicate that GitHub Actions should commit
+            print("📤 New content detected. Commit changes.")
+            return True
+        else:
+            print("⏳ No new content since last run.")
+            return False
 
     except Exception as e:
-        logging.error(f"Script failed: {str(e)}")
+        print(f"❌ Script failed: {e}")
+        return False
 
 if __name__ == "__main__":
     main()
