@@ -1,122 +1,149 @@
 import os
-import logging
-from datetime import datetime, timedelta
 import requests
-from typing import List
+from datetime import datetime, timedelta
+import logging
+from googleapiclient.discovery import build
 
-# --- Constants ---
-API_KEY = "AIzaSyD1XGZTfeL2esGXDe2v9xYt8KuVvO4ZfAo"  # Replace with your actual API key
-CSE_ID = "23d8dd8f6aa574750"  # Replace with your CSE ID
-OUTPUT_FILE = "top_drone_remote_sensing_links.txt"
-TOPICS = [
-    "drone UAV lidar agriculture forests remote sensing",
-    "UAV lidar forest monitoring",
-    "agriculture drone LiDAR",
-    "forest fire detection with drones",
-    "remote sensing agriculture"
-]
-RATE_LIMIT_DELAY = 1.0  # Seconds between requests
-
-# --- Logging Setup ---
+# Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
+    format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("scraper.log"),
+        logging.FileHandler('scraper.log'),
         logging.StreamHandler()
     ]
 )
 
-def log_error(message: str) -> None:
-    """Log errors to 'scraper.log'."""
-    logging.error(f"ERROR: {message}")
+def get_google_search_results(query, max_results=5):
+    """Fetch search results from Google Custom Search API"""
+    try:
+        # Get secrets from environment variables
+        api_key = os.getenv('GOOGLE_API_KEY')
+        cse_id = os.getenv('CUSTOM_SEARCH_ENGINE_ID')
 
-class GoogleSearchScraper:
-    def __init__(self):
-        self.session = requests.Session()
+        if not api_key or not cse_id:
+            raise ValueError("Missing required Google Custom Search API credentials")
 
-    def fetch_results(self, query: str, start_date: str = None, end_date: str = None) -> List[str]:
-        """Fetch top 5 results from Google Custom Search API."""
-        params = {
-            "q": query,
-            "key": API_KEY,
-            "cx": CSE_ID,
-            "num": 5,
+        service = build('customsearch', 'v1', developerKey=api_key)
+
+        # Calculate date range for last month
+        end_date = datetime.now().strftime('%Y-%m-%d')
+        start_date = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
+
+        # Search query with date filter
+        query_params = {
+            'q': f"{query} site:google.com",
+            'cx': cse_id,
+            'startDate': start_date,
+            'endDate': end_date,
+            'num': max_results * 2,  # Get more results to filter by date
+            'searchType': 'any'
         }
 
-        if start_date or end_date:
-            params["startDate"] = start_date
-            params["endDate"] = end_date
-
-        try:
-            response = self.session.get(
-                "https://www.googleapis.com/customsearch/v1",
-                params=params,
-                timeout=10
-            )
-            response.raise_for_status()
-            data = response.json()
-
-            # Extract unique URLs from results
-            urls = []
-            for item in data.get("items", []):
-                if "link" in item:
-                    urls.append(item["link"])
-
-            return list(set(urls))[:5]  # Remove duplicates, top 5
-
-        except requests.exceptions.RequestException as e:
-            log_error(f"Failed to fetch Google results: {e}")
-            return []
-        except Exception as e:
-            log_error(f"Unexpected error: {e}")
-            return []
-
-    def get_last_month_results(self) -> List[str]:
-        """Fetch search results for the last 30 days."""
-        end_date = datetime.now().strftime("%Y-%m-%d")
-        start_date = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-
-        all_links = []
-        for topic in TOPICS:
-            try:
-                time.sleep(RATE_LIMIT_DELAY / len(TOPICS))  # Distribute delay
-                results = self.fetch_results(
-                    query=topic,
-                    start_date=start_date,
-                    end_date=end_date
-                )
-                all_links.extend(results)
-
-            except Exception as e:
-                log_error(f"Failed to scrape {topic}: {e}")
-
-        return list(set(all_links))[:5]  # Remove duplicates, top 5
-
-def save_results_to_file(links: List[str]) -> None:
-    """Append new links to OUTPUT_FILE."""
-    with open(OUTPUT_FILE, "a") as f:
-        for link in links:
-            f.write(f"{link}\n")
-
-def main():
-    """Main execution function."""
-    scraper = GoogleSearchScraper()
-
-    # Check if we should run (8 AM Azores time)
-    azores_timezone = datetime.now() - timedelta(hours=1)  # UTC-1
-    if not (7.5 <= azores_timezone.hour < 9):  # ~8 AM in Azores
-        log_error("Skipping: Not running at 8 AM Azores time.")
-        return
-
-    try:
-        new_links = scraper.get_last_month_results()
-        save_results_to_file(new_links)
-
-        logging.info(f"Successfully saved {len(new_links)} links to {OUTPUT_FILE}")
+        response = service.cse().list(**query_params).execute()
+        return response.get('items', [])
 
     except Exception as e:
-        log_error(f"Critical error: {e}")
+        logging.error(f"Error fetching search results: {str(e)}")
+        raise
+
+def scrape_drone_related_outbreaks():
+    """Scrape top 5 major outbreaks related to drones, LiDAR, and agriculture/forest remote sensing"""
+    keywords = [
+        "drone accidents",
+        "LiDAR safety incidents",
+        "agriculture drone malfunctions",
+        "forest fire detection drones",
+        "remote sensing failures"
+    ]
+
+    all_results = []
+    for keyword in keywords:
+        results = get_google_search_results(keyword)
+        # Filter by date (last month) and add to our collection
+        for item in results:
+            if 'date' in item and datetime.strptime(item['date'], '%Y-%m-%d').year == datetime.now().year:
+                all_results.append({
+                    'title': item.get('title', ''),
+                    'link': item.get('link', ''),
+                    'description': item.get('snippet', '')
+                })
+
+    # Sort by date (newest first) and return top 5 unique results
+    unique_results = []
+    seen_links = set()
+
+    for result in all_results:
+        if result['link'] not in seen_links:
+            seen_links.add(result['link'])
+            unique_results.append(result)
+
+    # Sort by date (most recent first)
+    unique_results.sort(key=lambda x: datetime.strptime(x.get('date', ''), '%Y-%m-%d'), reverse=True)
+
+    return unique_results[:5]
+
+def save_results_to_file(results, filename='top_drone_remote_sensing_links.txt'):
+    """Save results to a text file"""
+    try:
+        with open(filename, 'w') as f:
+            for i, result in enumerate(results, 1):
+                f.write(f"{i}. {result['title']}\n")
+                f.write(f"   Link: {result['link']}\n")
+                f.write(f"   Description: {result['description']}\n\n")
+
+        logging.info(f"Successfully saved {len(results)} results to {filename}")
+    except Exception as e:
+        logging.error(f"Error saving results: {str(e)}")
+        raise
+
+def check_for_new_content(filename):
+    """Check if the output file has new content since last run"""
+    try:
+        # Get current timestamp
+        current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        with open(filename, 'r') as f:
+            lines = f.readlines()
+
+        # Check if we have any links from today
+        has_today_links = any(
+            line.strip().startswith('1. ') and datetime.strptime(line.split('.')[0].split()[1], '%Y-%m-%d').year == datetime.now().year
+            for line in lines
+        )
+
+        return not has_today_links
+
+    except Exception as e:
+        logging.error(f"Error checking file content: {str(e)}")
+        raise False
+
+def main():
+    """Main execution function"""
+    try:
+        # Get search results
+        logging.info("Starting drone related outbreak search...")
+        results = scrape_drone_related_outbreaks()
+
+        if not results:
+            logging.warning("No relevant results found")
+            return
+
+        logging.info(f"Found {len(results)} relevant results")
+
+        # Save to file
+        save_results_to_file(results)
+
+        # Check if we need to commit changes
+        filename = 'top_drone_remote_sensing_links.txt'
+        needs_commit = check_for_new_content(filename)
+
+        if needs_commit:
+            logging.info("New content found - committing changes")
+            return True  # Indicate that GitHub Actions should commit
+
+    except Exception as e:
+        logging.error(f"Script failed: {str(e)}")
 
 if __name__ == "__main__":
     main()
