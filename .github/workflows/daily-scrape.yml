@@ -1,0 +1,49 @@
+name: Daily Drone Remote Sensing Scraper
+
+on:
+  schedule:
+    - cron: '0 7,8 * * *'  # Runs at ~7 AM and ~8 AM UTC (Azores is UTC-1)
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scraper script
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}  # Store API key in GitHub Secrets
+          CUSTOM_SEARCH_ENGINE_ID: ${{ secrets.CUSTOM_SEARCH_ENGINE_ID }}
+        run: |
+          python scraper.py
+
+      - name: Upload results to output file
+        uses: actions/upload-artifact@v3
+        with:
+          name: daily-links
+          path: top_drone_remote_sensing_links.txt
+
+      - name: Commit and push changes (if new links)
+        if: success()
+        run: |
+          # Check if the file has new content
+          NEW_CONTENT=$(grep -q "https://" scraper.log && echo "true" || echo "false")
+          if [ "$NEW_CONTENT" = "true" ]; then
+            git config --global user.name 'GitHub Actions'
+            git config --global user.email 'actions@github.com'
+            git add .
+            git commit -m "Update drone remote sensing links"
+            git push
+          fi
