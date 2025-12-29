@@ -40,9 +40,9 @@ jobs:
           git commit -m "Daily drone incident update [skip ci]"
           git push
 
-      # Use v4+ for artifact upload (if needed)
+      # ✅ Updated to latest version (v4+)
       - name: Upload results as artifact
-        uses: actions/upload-artifact@v3  # Still works, but prefer v4+
+        uses: actions/upload-artifact@v4  # Now works correctly
         with:
           name: daily_drone_incidents
           path: top_drone_incidents.txt
