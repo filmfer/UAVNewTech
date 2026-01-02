@@ -1,48 +1,43 @@
-name: Daily Drone Incident Scraper
+name: Daily Drone Scrape
 
 on:
   schedule:
-    - cron: '0 8 * * 1'  # Runs daily at 8 AM Azores timezone (UTC-1)
-  workflow_dispatch:  # Allow manual trigger
+    # 8 AM Azores (UTC-1) is 09:00 UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Allows manual run for testing
 
 jobs:
-  scrape-and-upload:
+  scrape:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Critical: Allows the script to commit changes back to repo
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # Updated to v4
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          pip install requests
 
-      - name: Run scraper script
-        id: scrape
-        run: |
-          python scraper.py
-          echo "::set-output name=needs_commit::$?"
+      - name: Run Scraper
         env:
-          GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
-          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+          # These pull the secrets you saved in GitHub Settings
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          CUSTOM_SEARCH_ENGINE_ID: ${{ secrets.CUSTOM_SEARCH_ENGINE_ID }}
+        run: python scraper.py
 
-      - name: Commit changes if needed
-        if: steps.scrape.outputs.needs_commit == 'true'
+      - name: Commit and Push Results
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Daily drone incident update [skip ci]"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add top_drone_remote_sensing_links.txt scraper.log
+          # Only commit if there are changes
+          git commit -m "Update drone search results [skip ci]" || exit 0
           git push
-
-      # ✅ Updated to latest version (v4+)
-      - name: Upload results as artifact
-        uses: actions/upload-artifact@v4  # Now works correctly
-        with:
-          name: daily_drone_incidents
-          path: top_drone_incidents.txt
