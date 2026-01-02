@@ -37,7 +37,17 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add top_drone_remote_sensing_links.txt scraper.log
-          # Only commit if there are changes
+          
+          # Only add the results file, NOT the log
+          git add top_drone_remote_sensing_links.txt
+          
           git commit -m "Update drone search results [skip ci]" || exit 0
           git push
+
+      - name: Upload Log Artifact
+        if: always()  # Run this even if the script crashes
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-log
+          path: scraper.log
+          retention-days: 5
