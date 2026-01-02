@@ -13,15 +13,20 @@ EMAIL_RECEIVER = "filmfer@gmail.com"
 def parse_news_file():
     """Reads the text file and parses the top 5 most recent entries."""
     if not os.path.exists(INPUT_FILE):
+        print(f"⚠️ Input file not found: {INPUT_FILE}")
         return []
 
     articles = []
     current_article = {}
     
-    with open(INPUT_FILE, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+    try:
+        with open(INPUT_FILE, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"❌ Error reading file: {e}")
+        return []
         
-    # Process in reverse to get the newest items first
+    # Process in reverse order to get the newest items first (assuming append-only file)
     for line in reversed(lines):
         line = line.strip()
         if "Link: " in line:
@@ -33,33 +38,54 @@ def parse_news_file():
         elif "Date Scraped: " in line:
             current_article['date'] = line.split("Date Scraped: ")[1]
         elif "----------------------------------------" in line:
-            if 'title' in current_article:
+            # End of a block defined by separator
+            if 'title' in current_article and 'link' in current_article:
                 articles.append(current_article)
             current_article = {}
             
-    # Return top 5 most recent
+    # Return top 5 most recent entries
     return articles[:5]
 
+def determine_icon(title, summary):
+    """
+    Analyzes the title and summary text to select an appropriate emoji icon.
+    Prioritizes Satellites, then Drones, then falls back to a generic dish.
+    """
+    # Combine text and convert to lowercase for easy searching
+    combined_text = (str(title) + " " + str(summary)).lower()
+
+    # Keywords to match against
+    satellite_keywords = ['satellite', 'orbit', 'space agency', 'earth observation']
+    drone_keywords = ['drone', 'uav', 'uas', 'quadcopter', 'fixed-wing', 'lidar', 'vtol']
+
+    if any(keyword in combined_text for keyword in satellite_keywords):
+        return "🛰️" # Satellite icon
+    elif any(keyword in combined_text for keyword in drone_keywords):
+        return "🚁" # Helicopter/Drone icon (represents quads/fixed-wing generic)
+    else:
+        # Default icon if no vehicle type is specifically mentioned (e.g., general agtech)
+        return "📡" # Satellite Dish / Radar icon
+
 def generate_html(articles):
-    """Generates a modern, Canva-style HTML newsletter."""
+    """Generates a modern, Canva-style HTML newsletter with dynamic icons."""
     
-    # CSS for a modern card-based design
-    html_content = f"""
+    html_header = f"""
     <html>
     <head>
         <style>
-            body {{ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 0; }}
-            .container {{ max-width: 600px; margin: 20px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }}
-            .header {{ background-color: #2c3e50; color: #ffffff; padding: 30px; text-align: center; }}
-            .header h1 {{ margin: 0; font-size: 24px; letter-spacing: 1px; }}
-            .header p {{ margin: 10px 0 0; font-size: 14px; opacity: 0.8; }}
-            .content {{ padding: 20px; }}
-            .card {{ background: #ffffff; border-left: 4px solid #3498db; margin-bottom: 20px; padding: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }}
-            .card h2 {{ margin: 0 0 10px; font-size: 18px; color: #2c3e50; }}
-            .card p {{ margin: 0 0 15px; color: #555; line-height: 1.6; font-size: 14px; }}
-            .btn {{ display: inline-block; background-color: #3498db; color: #ffffff; text-decoration: none; padding: 8px 15px; border-radius: 4px; font-size: 12px; font-weight: bold; }}
-            .btn:hover {{ background-color: #2980b9; }}
-            .footer {{ background-color: #ecf0f1; color: #7f8c8d; text-align: center; padding: 20px; font-size: 12px; }}
+            body {{ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }}
+            .container {{ max-width: 600px; margin: 20px auto; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.08); }}
+            .header {{ background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%); color: #ffffff; padding: 35px 20px; text-align: center; }}
+            .header h1 {{ margin: 0; font-size: 26px; font-weight: 700; letter-spacing: 0.5px; }}
+            .header p {{ margin: 12px 0 0; font-size: 15px; opacity: 0.9; font-weight: 300; }}
+            .content {{ padding: 25px; background-color: #f8f9fa; }}
+            .card {{ background: #ffffff; border-left: 5px solid #26d0ce; margin-bottom: 22px; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s; }}
+            .card h2 {{ margin: 0 0 12px; font-size: 19px; color: #2c3e50; display: flex; align-items: center; }}
+            .icon {{ font-size: 24px; margin-right: 10px; }}
+            .card p {{ margin: 0 0 18px; color: #555; line-height: 1.6; font-size: 15px; }}
+            .btn {{ display: inline-block; background-color: #1a2980; color: #ffffff !important; text-decoration: none; padding: 10px 18px; border-radius: 50px; font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; }}
+            .footer {{ background-color: #2c3e50; color: #bdc3c7; text-align: center; padding: 25px; font-size: 13px; }}
+            .footer p {{ margin: 5px 0; }}
         </style>
     </head>
     <body>
@@ -71,25 +97,34 @@ def generate_html(articles):
             <div class="content">
     """
 
+    html_body = ""
     for article in articles:
-        html_content += f"""
+        title = article.get('title', 'No Title')
+        summary = article.get('summary', 'No summary available.')
+        link = article.get('link', '#')
+        
+        # ✅ DYNAMIC ICON LOGIC HERE
+        icon = determine_icon(title, summary)
+
+        html_body += f"""
                 <div class="card">
-                    <h2>✈️ {article.get('title', 'No Title')}</h2>
-                    <p>{article.get('summary', 'No summary available.')}</p>
-                    <a href="{article.get('link', '#')}" class="btn">READ FULL ARTICLE →</a>
+                    <h2><span class="icon">{icon}</span> {title}</h2>
+                    <p>{summary}</p>
+                    <a href="{link}" target="_blank" class="btn">READ FULL ARTICLE →</a>
                 </div>
         """
 
-    html_content += """
+    html_footer = """
             </div>
             <div class="footer">
-                <p>Automated Agent by UAVNewTech | Sent from Azores</p>
+                <p>Automated Agent by UAVNewTech</p>
+                <p>Sent from Azores (UTC-1)</p>
             </div>
         </div>
     </body>
     </html>
     """
-    return html_content
+    return html_header + html_body + html_footer
 
 def send_email(html_body):
     """Sends the email using Gmail SMTP."""
@@ -101,22 +136,29 @@ def send_email(html_body):
     msg.attach(MIMEText(html_body, 'html'))
 
     try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login(EMAIL_SENDER, EMAIL_PASSWORD)
-        server.send_message(msg)
-        server.quit()
+        # Using Gmail's standard SMTP port and server
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+            server.login(EMAIL_SENDER, EMAIL_PASSWORD)
+            server.send_message(msg)
         print("✅ Email sent successfully!")
     except Exception as e:
         print(f"❌ Failed to send email: {e}")
 
-if __name__ == "__main__":
+def main():
     if not EMAIL_SENDER or not EMAIL_PASSWORD:
-        print("❌ Error: Email credentials missing.")
+        print("❌ Error: EMAIL_USER or EMAIL_PASSWORD environment variables missing.")
+        return
+
+    print("📰 Parsing news file...")
+    top_news = parse_news_file()
+    
+    if top_news:
+        print(f"Found {len(top_news)} articles. Generating HTML...")
+        email_html = generate_html(top_news)
+        print(f"📧 Sending email to {EMAIL_RECEIVER}...")
+        send_email(email_html)
     else:
-        top_news = parse_news_file()
-        if top_news:
-            email_html = generate_html(top_news)
-            send_email(email_html)
-        else:
-            print("⚠️ No news found to send.")
+        print("ℹ️ No news found in the text file to send. Skipping email.")
+
+if __name__ == "__main__":
+    main()
