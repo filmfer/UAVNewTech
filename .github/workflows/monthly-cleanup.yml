@@ -1,0 +1,34 @@
+name: Monthly Database Cleanup
+
+on:
+  schedule:
+    # Run at 00:00 UTC on the 1st day of every month
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # Allows manual trigger for testing
+
+jobs:
+  janitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Critical: Allows deleting lines and pushing changes
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Run Janitor Script
+        run: python cleanup.py
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # We only commit if the file actually changed
+          git add top_drone_remote_sensing_links.txt
+          git commit -m "Auto-cleanup: Removed old news entries [skip ci]" || exit 0
+          git push
