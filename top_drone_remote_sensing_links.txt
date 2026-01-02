@@ -1,1 +1,76 @@
 
+Date Scraped: 2026-01-02
+Title: Advancements in Agroforestry through Lidar Drone Technology
+Snippet: Dec 8, 2025 ... In this regard, UAV innovation in forestry is rapidly redefining conservation efforts. Drones equipped with Lidar technology offer capabilities such as aerial ...
+Link: https://www.agrisensedrones.com/advancements-in-agroforestry-lidar-technology/
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Resilient forests through monitoring, risk modelling, adaptive ...
+Snippet: Dec 2, 2025 ... A key focus is innovative remote sensing: drones, satellites, and sensors (multispectral, hyperspectral, LiDAR, radar) with machine learning. Central is SAR ...
+Link: https://www.nordforsk.org/projects/resilient-forests-through-monitoring-risk-modelling-adaptive-management-and-early
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Minister Profiles Drone Technology and AI for Biosecurity Success ...
+Snippet: Dec 17, 2025 ... by admin | Dec 17, 2025 | Deep Learning / Ai, Environmental, UAV's / Drones | 0 comments. Possum Detection Using Night Vision and Thermal Ai ...
+Link: https://interpine.nz/minister-profiles-drone-technology-and-ai-for-biosecurity-success/
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: New bill seeks 'phase-out' of LiDAR tech tied to foreign adversaries ...
+Snippet: Dec 12, 2025 ... LiDAR, a remote-sensing technology that uses pulsed laser light to map ... Department of Agriculture, Department of Commerce, Department of Education ...
+Link: https://www.nextgov.com/policy/2025/12/new-bill-seeks-phase-out-lidar-tech-tied-foreign-adversaries/410139/
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Weed Management Innovations via Lidar Drones
+Snippet: Dec 18, 2025 ... How Lidar Technology Works. Lidar operates by emitting laser pulses that bounce off objects and return to the sensor. This process allows the creation of high- ...
+Link: https://www.agrisensedrones.com/weed-management-innovations-lidar-drones/
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Global LiDAR Market Size and Forecast 2025–2033 | The Swamp
+Snippet: Dec 10, 2025 ... How Autonomous Vehicles, Urbanization, and Precision Farming Are Accelerating the Future of LiDAR Technology.
+Link: https://vocal.media/theSwamp/global-li-dar-market-size-and-forecast-2025-2033-tdtvk0yco
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Automated forest fire detection in ecological monitoring using ...
+Snippet: Dec 11, 2025 ... An improved YOLOv5s-Seg detection and segmentation model for the accurate identification of forest fires based on UAV infrared image. Remote Sens. 15, 4694 ( ...
+Link: https://www.nature.com/articles/s41598-025-31707-6
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Neuromorphic Solar Edge AI for Sustainable Wildfire Detection ...
+Snippet: 4 days ago ... Neuromorphic edge AI drones achieve 87% solar autonomy for wildfire detection · BrainChip Akida enables 4,200 patrol hours/year, 3× longer than CPU-based systems.
+Link: https://www.sciencedirect.com/science/article/abs/pii/S2542660525003762
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Drones can detect smoldering embers in forests
+Snippet: Dec 11, 2025 ... The autonomous drone is designed to provide information about hot spots before the fire department arrives, thereby making the emergency services' work ...
+Link: https://www.aerospace-and-defence.com/drones-can-detect-smoldering-embers-in-forests-a-d24df681f68c7eddff7bd720ab2cd629/
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Dr. Yiannis Ampatzidis - Southwest Florida Research & Education ...
+Snippet: Dec 5, 2025 ... Guest Editor: Remote Sensing journal (2020-Today). Editorial Advisory Board Member of Computer and Electronics in Agriculture Journal. Editorial Board of ...
+Link: https://swfrec.ifas.ufl.edu/faculty/ampatzidis/
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: How Can an AI Engineer Add Real Value in a Remote Sensing/UAV ...
+Snippet: Dec 6, 2025 ... They talked about wanting to move into areas like smart cities and smart agriculture. The company is still a startup.
+Link: https://www.reddit.com/r/remotesensing/comments/1pfk67p/how_can_an_ai_engineer_add_real_value_in_a_remote/
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Integrating UAVs, satellite remote sensing, and machine ... - Frontiers
+Snippet: Dec 3, 2025 ... Precision agriculture has emerged as a pivotal approach to achieving sustainable food production by integrating advanced technologies such as Unmanned ...
+Link: https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2025.1670380/full
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Remote Sensing in Ecology and Conservation - Wiley Online Library
+Snippet: Dec 21, 2025 ... We developed a two-step deep learning approach using historical greyscale aerial photographs to map forest age at fine spatial scales. By combining a pre- ...
+Link: https://zslpublications.onlinelibrary.wiley.com/journal/20563485
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: A high-resolution machine learning and multi-source remote ...
+Snippet: Dec 24, 2025 ... Remote sensing, another common tool, depending on the remote sensing ... UAV Remote Sensing for Urban Vegetation Mapping Using Random Forest and Texture Analysis.
+Link: https://www.nature.com/articles/s41598-025-28350-6
+----------------------------------------
+Date Scraped: 2026-01-02
+Title: Remote Sensing | Special Issue : Artificial Intelligence and Remote ...
+Snippet: Dec 8, 2025 ... Artificial Intelligence and Remote Sensing Applied to Forest Management ... Interests: remote sensing; lidar; UAV; machine learning; programming; forestry ...
+Link: https://www.mdpi.com/journal/remotesensing/special_issues/X39TJ74G34
+----------------------------------------
