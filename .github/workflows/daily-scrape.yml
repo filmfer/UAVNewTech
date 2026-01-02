@@ -3,7 +3,7 @@ name: Daily Drone Scrape
 on:
   schedule:
     # 8 AM Azores (UTC-1) is 09:00 UTC
-    - cron: '0 9 * * *'
+    - cron: '0 9 * * 1'
   workflow_dispatch: # Allows manual run for testing
 
 jobs:
