@@ -1,0 +1,27 @@
+name: Weekly Newsletter Agent
+
+on:
+  schedule:
+    # 10:00 AM Azores (UTC-1) = 11:00 UTC
+    # Every Monday
+    - cron: '0 11 * * 1'
+  workflow_dispatch: # Allows manual testing
+
+jobs:
+  email_agent:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Send Newsletter
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: python newsletter.py
