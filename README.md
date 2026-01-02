@@ -35,12 +35,13 @@
 
 ## ⚙️ Architecture
 
-The project consists of two main autonomous agents:
+The project consists of three autonomous agents:
 
 | Agent | File | Schedule | Function |
 | :--- | :--- | :--- | :--- |
 | **The Collector** | `scraper.py` | Daily | Searches the web, filters "last month" results, and saves unique links. |
 | **The Publisher** | `newsletter.py` | Mondays | Reads collected links, generates HTML, sends email, and deploys to Web. |
+| **The Janitor** | `cleanup.py` | Monthly | Automatically deletes links older than 90 days to maintain database health. |
 
 ---
 
