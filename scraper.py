@@ -37,24 +37,24 @@ def fetch_google_results(query):
         "key": API_KEY,
         "cx": SITE_ID,
         "q": query,
-        "num": 3,              # Fetch top 3 per query to ensure quality
-        "searchType": "web",
-        "dateRestrict": "m1",  # 'm1' restricts results to the past month
-        "sort": "date"         # Optional: Sort by date. Remove if you prefer relevance.
+        "num": 3,              
+        # "searchType": "web",   <-- REMOVED (This caused the 400 Error)
+        "dateRestrict": "m1",    # Keeps results to the last month
+        # "sort": "date"         <-- REMOVED (relying on dateRestrict is safer)
     }
     
     try:
         response = requests.get(url, params=params)
-        response.raise_for_status()
+        response.raise_for_status() # This raises errors for 400/500 codes
         data = response.json()
         
-        # Check if quota was exceeded or other API errors occurred
         if 'error' in data:
             logging.error(f"API Error for query '{query}': {data['error']}")
             return []
             
         return data.get("items", [])
     except Exception as e:
+        # This catches the 400 error and logs it
         logging.error(f"Network error fetching '{query}': {e}")
         return []
 
