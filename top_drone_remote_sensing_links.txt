@@ -144,3 +144,43 @@ Title: Bridging forestry practice and remote sensing: scaling up forest ...
 Snippet: 6 days ago ... Bridging forestry practice and remote sensing: scaling up forest composition with integrated UAV LiDAR and hyperspectral data. Original Paper; Published: 05 ...
 Link: https://link.springer.com/article/10.1007/s11676-025-01977-x
 ----------------------------------------
+Date Scraped: 2026-01-19
+Title: Zurich-based Barry Callebaut has teamed up with Airbus Defence ...
+Snippet: 7 days ago ... ... drone- based precision agriculture solutions across the country. This ... Using satellite mapping and LiDAR, the drones identify optimal planting ...
+Link: https://www.facebook.com/SwissConsulateNewYork/posts/zurich-based-barry-callebaut-has-teamed-up-with-airbus-defence-and-space-to-tack/1325104869649383/
+----------------------------------------
+Date Scraped: 2026-01-19
+Title: TreeTrack Partners with Canfor for Post-Wildfire Reforestation in BC ...
+Snippet: Jan 5, 2026 ... ... drone technology combined with AI-driven detection systems. This initiative, led ... LiDAR, drones, and integrated platforms are closing the data gap fast.
+Link: https://www.linkedin.com/posts/treetrack_reforestation-wildfirerecovery-forestryinnovation-activity-7414101339305242624-fkub
+----------------------------------------
+Date Scraped: 2026-01-19
+Title: Adhesives for Lidar | MasterBond.com
+Snippet: 5 days ago ... ... agriculture. Lidar utilizes light waves from a pulsed laser beam (up ... Sophisticated lidar technology has the potential of being transformative for ...
+Link: https://www.masterbond.com/industrial-applications/adhesives-lidar
+----------------------------------------
+Date Scraped: 2026-01-19
+Title: At Geosun, we believe the real value of LiDAR lies in transforming ...
+Snippet: 7 days ago ... ... LiDAR #PrecisionAgriculture #DigitalAgriculture #AgriTech #SpatialData #GeosunLiDAR ... LiDAR technology for capturing highresolution structural data. This work ...
+Link: https://www.facebook.com/100063697106723/posts/at-geosun-we-believe-the-real-value-of-lidar-lies-in-transforming-point-clouds-i/1488197183313504/
+----------------------------------------
+Date Scraped: 2026-01-19
+Title: Automatic Smoke and Wildfire Detection System by SmokeD
+Snippet: Jan 7, 2026 ... The SmokeD automatic wildfire system monitors the area 24/7. Wildfire detection system assures you with safety and protection. Find out more about our work.
+Link: https://smokedsystem.com/
+----------------------------------------
+Date Scraped: 2026-01-19
+Title: (PDF) Wildland Fire Detection and Monitoring using a Drone ...
+Snippet: Dec 21, 2025 ... A multi-modal UAV-collected dataset of dual-feed side-by-side videos including both RGB and thermal images of a prescribed fire in an open canopy pine forest.
+Link: https://www.researchgate.net/publication/365480586_Wildland_Fire_Detection_and_Monitoring_using_a_Drone-collected_RGBIR_Image_Dataset
+----------------------------------------
+Date Scraped: 2026-01-19
+Title: Drones Tackle Wildfires in XPrize Competition - IEEE Spectrum
+Snippet: Dec 24, 2025 ... Drone technology is transforming wildfire response, offering faster detection and suppression to protect communities and environments.
+Link: https://spectrum.ieee.org/wildfire-drones
+----------------------------------------
+Date Scraped: 2026-01-19
+Title: Remote Sensing for Agriculture, Ecosystems, and Hydrology XXVIII ...
+Snippet: 8 days ago ... More recently, the integration of EO with IoT sensor networks, UAV-derived 3D products, and cloud-native digital twins is opening new perspectives for near ...
+Link: https://spie.org/ERS/conferencedetails/remote-sensing-agriculture-ecosystems-hydrology
+----------------------------------------
