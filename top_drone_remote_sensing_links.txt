@@ -219,3 +219,43 @@ Title: Integrating SLAM LiDAR, UAV-LiDAR and Orbital Remote Sensing ...
 Snippet: 5 days ago ... Monitoring forest regeneration in savanna ecosystems remains a major scientific challenge due to high structural heterogeneity, multiple vegetation strata, ...
 Link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6101475
 ----------------------------------------
+Date Scraped: 2026-02-02
+Title: Presents a UAV-based multisensor framework for Cannabis sativa L ...
+Snippet: Jan 13, 2026 ... ... outbreaks with impressive accuracy. This level of foresight ... South Lidar ▻ UAV / Drone Agriculture Services and Equipment (DJI Mavic 3 Multispectral).
+Link: https://www.facebook.com/GreenCultureLabs.GCL/posts/how-ai-and-drones-help-cultivate-cannabis-and-analyze-cannabinoid-content-%EF%B8%8F-stud/1190762263241837/
+----------------------------------------
+Date Scraped: 2026-02-02
+Title: Select Committee on the CCP - Democrats |
+Snippet: Jan 24, 2026 ... Krishnamoorthi Introduces SAFE LiDAR Act to Phase-Out Chinese-Made LiDAR from the United States ... Krishnamoorthi, Moolenaar Expose PRC Drone Company ...
+Link: http://democrats-selectcommitteeontheccp.house.gov/
+----------------------------------------
+Date Scraped: 2026-02-02
+Title: PANDAG G1 To Debut LiDAR Autonomous Mower At CES 2026
+Snippet: Jan 6, 2026 ... As a dedicated journalist and entrepreneur, I helm iGrow News, a pioneering media platform focused on the evolving landscape of Agriculture Technology. With a ...
+Link: https://igrownews.com/pandag-latest-news/
+----------------------------------------
+Date Scraped: 2026-02-02
+Title: Creating Digital Terrain Models from 3D Light Detection and ...
+Snippet: Jan 12, 2026 ... Light Detection And Ranging, or LiDAR, is a technology that uses laser pulses to create detailed 3D maps of the Earth's surface. The technology has been ...
+Link: https://journals.flvc.org/edis/article/view/139093
+----------------------------------------
+Date Scraped: 2026-02-02
+Title: UAS in Wildfire Response | Federal Aviation Administration
+Snippet: Jan 23, 2026 ... UAS in Wildfire Response. drone flying in forest. Unmanned Aircraft Systems ... detection, and safer operations in high-risk environments. The FAA, in ...
+Link: https://www.faa.gov/uas/public_safety_gov/uas-wildfire-response
+----------------------------------------
+Date Scraped: 2026-02-02
+Title: Growing up alongside deadly fires inspired me to study them
+Snippet: Jan 15, 2026 ... ... Fire and Rescue Service, about using “swarm intelligence”, AI and drones to improve wildfire detection and response. Swarm intelligence describes the ...
+Link: https://theconversation.com/growing-up-alongside-deadly-fires-inspired-me-to-study-them-and-fight-flames-with-swarms-of-drones-273270
+----------------------------------------
+Date Scraped: 2026-02-02
+Title: Applications of Unmanned Aerial Remote Sensing in Precision ...
+Snippet: 7 days ago ... This Special Issue focuses on the cutting-edge intersection of unmanned aerial systems (UASs) and precision agriculture, aiming to bring together a collection ...
+Link: https://www.mdpi.com/journal/remotesensing/special_issues/5B20W0350W
+----------------------------------------
+Date Scraped: 2026-02-02
+Title: An SSM-Based Benchmark for Forest Fire Detection in UAV Remote ...
+Snippet: Jan 13, 2026 ... Timely and accurate detection of forest fires through unmanned aerial vehicle (UAV) remote sensing target detection technology is of paramount importance.
+Link: https://pubmed.ncbi.nlm.nih.gov/41590928/
+----------------------------------------
