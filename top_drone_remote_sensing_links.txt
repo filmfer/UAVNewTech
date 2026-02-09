@@ -259,3 +259,53 @@ Title: An SSM-Based Benchmark for Forest Fire Detection in UAV Remote ...
 Snippet: Jan 13, 2026 ... Timely and accurate detection of forest fires through unmanned aerial vehicle (UAV) remote sensing target detection technology is of paramount importance.
 Link: https://pubmed.ncbi.nlm.nih.gov/41590928/
 ----------------------------------------
+Date Scraped: 2026-02-09
+Title: Drones | An Open Access Journal from MDPI
+Snippet: 18 hours ago ... We demonstrate the critical advantage of using Uncrewed Aerial System LiDAR (UAS-LiDAR) for mapping the hierarchical microrelief [...] Read more. The ...
+Link: https://www.mdpi.com/journal/drones
+----------------------------------------
+Date Scraped: 2026-02-09
+Title: Draganfly Announces New Long Range LiDAR System
+Snippet: 7 days ago ... DRIVING THE FUTURE OF DRONES SINCE THE PRE-DRONE ERA. First drone to save a life. First-to-market with quadcopter drones. First to leverage lithium batteries ...
+Link: https://draganfly.com/news/draganfly-announces-new-long-range-lidar-system/
+----------------------------------------
+Date Scraped: 2026-02-09
+Title: Mohammad Asif - Facebook
+Snippet: Jan 31, 2026 ... That mapping approach fits with how LiDAR-equipped drones are already used in forestry operations for measurement and field surveying. After identifying good ...
+Link: https://www.facebook.com/photo.php?fbid=1468384258055213&set=a.243907003836284&id=100046509582845
+----------------------------------------
+Date Scraped: 2026-02-09
+Title: Lidar - Wikipedia
+Snippet: Jan 31, 2026 ... Lidar is a method for determining ranges by targeting an object or a surface with a laser and measuring the time for the reflected light to return to the ...
+Link: https://en.wikipedia.org/wiki/Lidar
+----------------------------------------
+Date Scraped: 2026-02-09
+Title: Ommatidia LiDAR to Boost Automation in Forestry and Agriculture
+Snippet: Jan 28, 2026 ... By combining advanced LiDAR technology with intelligent automation, the project aims to improve safety, efficiency, and environmental responsibility in ...
+Link: https://ommatidia-lidar.com/ommatidia-lidar-to-boost-automation-in-forestry-and-agriculture/
+----------------------------------------
+Date Scraped: 2026-02-09
+Title: Topcon Positioning Systems, Inc.
+Snippet: 2 days ago ... 3D laser scanners · GNSS antennas · GNSS bases and rovers · GNSS boards · GNSS ... Big Farm Technology. Small Budget Prices. Introducing Value Line Steering.
+Link: https://www.topconpositioning.com/
+----------------------------------------
+Date Scraped: 2026-02-09
+Title: Remote Sensing for Agriculture, Ecosystems, and Hydrology XXVIII
+Snippet: Jan 22, 2026 ... More recently, the integration of EO with IoT sensor networks, UAV-derived 3D products, and cloud-native digital twins is opening new perspectives for near ...
+Link: https://spie.org/ESI26R/conferencedetails/remote-sensing-agriculture-ecosystems-hydrology
+----------------------------------------
+Date Scraped: 2026-02-09
+Title: (PDF) A Review on UAV-Based Applications for Precision Agriculture
+Snippet: Jan 15, 2026 ... outcomes of each method and the potential applications of each one in the farming operations. Keywords: remote sensing; IoT; UAV; UAS; Unmanned ...
+Link: https://www.researchgate.net/publication/337187714_A_Review_on_UAV-Based_Applications_for_Precision_Agriculture
+----------------------------------------
+Date Scraped: 2026-02-09
+Title: Phenology-aware in-season crop yield estimation through UAV ...
+Snippet: Jan 15, 2026 ... Some of the key advantages of UAV-based remote sensing in precision agriculture include high-resolution data acquisition, multispectral imaging for ...
+Link: https://www.sciencedirect.com/science/article/abs/pii/S016816992501316X
+----------------------------------------
+Date Scraped: 2026-02-09
+Title: A Synthetic UAV Dataset for Semantic Segmentation of Forest ...
+Snippet: Jan 24, 2026 ... & Wang, A. Forest pest monitoring and early warning using UAV remote sensing and computer vision techniques. Sci. Rep. 15(1), 401 (2025).
+Link: https://www.nature.com/articles/s41597-026-06665-x
+----------------------------------------
