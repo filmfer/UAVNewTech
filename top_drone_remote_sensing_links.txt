@@ -309,3 +309,43 @@ Title: A Synthetic UAV Dataset for Semantic Segmentation of Forest ...
 Snippet: Jan 24, 2026 ... & Wang, A. Forest pest monitoring and early warning using UAV remote sensing and computer vision techniques. Sci. Rep. 15(1), 401 (2025).
 Link: https://www.nature.com/articles/s41597-026-06665-x
 ----------------------------------------
+Date Scraped: 2026-02-16
+Title: YellowScan LiDAR Knowledge & Resources Center
+Snippet: Feb 5, 2026 ... A LiDAR drone is an unmanned aerial vehicle (UAV) equipped with Light ... outbreak with YellowScan's Mapper LiDAR sensor. Knowledge 20210225.
+Link: https://www.yellowscan.com/knowledge/
+----------------------------------------
+Date Scraped: 2026-02-16
+Title: Build a Smart World with CHCNAV Precision Solutions
+Snippet: Feb 5, 2026 ... ... LiDAR technology for spatial data capture. Learn More + Go to Geospatial ... Improve your precision agriculture practices with smart agriculture solutions built ...
+Link: https://www.chcnav.com/
+----------------------------------------
+Date Scraped: 2026-02-16
+Title: Wind Energy - Vaisala
+Snippet: Jan 29, 2026 ... Discover the many use cases of lidar for all phases of an offshore project. Download PDF. The weather-augmented farm: Superpower your wind turbines & wind farms.
+Link: https://www.vaisala.com/en/industries-applications/weather-and-environmental/renewable-energy/wind-energy
+----------------------------------------
+Date Scraped: 2026-02-16
+Title: A Lightweight Fire Detection Framework Based on YOLOv11 for ...
+Snippet: 7 days ago ... To address this, we propose a low-cost drone-based forest fire detection and monitoring system that utilizes computer vision and deep learning for real-time ...
+Link: https://www.preprints.org/manuscript/202602.1002
+----------------------------------------
+Date Scraped: 2026-02-16
+Title: From AI-powered cameras to satellites, drones and even ... - Facebook
+Snippet: Feb 4, 2026 ... ... fires are detected, tracked and mitigated. We recently partnered with Pano AI and PNM on 11 wildfire detection cameras in high-risk areas. Read the latest ...
+Link: https://www.facebook.com/NMForestryDivision/posts/from-ai-powered-cameras-to-satellites-drones-and-even-burnbots-technology-is-res/1473420624787208/
+----------------------------------------
+Date Scraped: 2026-02-16
+Title: Special Issue : Advancing UAV-Based Remote Sensing - MDPI
+Snippet: 7 days ago ... With advancements in UAV technology, sensors, and data processing algorithms, these systems are now have various critical environmental, agricultural, and urban ...
+Link: https://www.mdpi.com/journal/remotesensing/special_issues/MW3422LNSO
+----------------------------------------
+Date Scraped: 2026-02-16
+Title: European Journal of Remote Sensing - Taylor & Francis
+Snippet: 8 days ago ... Publishes research on active or passive remote sensing of terrestrial, oceanic, and atmospheric environments; drones; sensor systems and imaging.
+Link: https://www.tandfonline.com/journals/tejr20
+----------------------------------------
+Date Scraped: 2026-02-16
+Title: Species-specific tree structural parameters extraction via UAV RGB ...
+Snippet: Jan 20, 2026 ... UAV-based multimodal remote sensing. climate-adaptive forest management ... UAV-based forest remote sensing produces massive volumes of high-resolution ...
+Link: https://www.sciencedirect.com/science/article/pii/S2643651526000087
+----------------------------------------
