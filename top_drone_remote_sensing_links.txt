@@ -349,3 +349,38 @@ Title: Species-specific tree structural parameters extraction via UAV RGB ...
 Snippet: Jan 20, 2026 ... UAV-based multimodal remote sensing. climate-adaptive forest management ... UAV-based forest remote sensing produces massive volumes of high-resolution ...
 Link: https://www.sciencedirect.com/science/article/pii/S2643651526000087
 ----------------------------------------
+Date Scraped: 2026-02-23
+Title: Draganfly to Unveil Three New Cutting Edge Drone Products at the ...
+Snippet: Feb 2, 2026 ... Draganfly to Unveil Three New Cutting Edge Drone Products at the Commercial UAV Expo in Las Vegas ... Drone and the company's new Long Range LiDAR System at booth ...
+Link: https://draganfly.com/press-release/draganfly-to-unveil-three-new-cutting-edge-drone-products-at-the-commercial-uav-expo-in-las-vegas/
+----------------------------------------
+Date Scraped: 2026-02-23
+Title: Seeing the Invisible: How LiDAR could redefine helicopter wire ...
+Snippet: Feb 12, 2026 ... For operators in agriculture, utilities, aerial patrol, and ... LiDAR technology performs best, with relatively low speeds and predictable patterns.
+Link: https://verticalmag.com/news/seeing-the-invisible-how-lidar-could-redefine-helicopter-wire-strike-safety/
+----------------------------------------
+Date Scraped: 2026-02-23
+Title: Meet the Future of Autonomous Wildfire Response ... - XPrize
+Snippet: Jan 29, 2026 ... These systems integrated AI-driven detection, autonomous drone navigation ... drones to confirm fire locations and deliver targeted early-stage suppression.
+Link: https://www.xprize.org/news/meet-the-future-of-autonomous-wildfire-response-xprize-wildfire-announces-finalist-teams-advancing-in-11m-competition
+----------------------------------------
+Date Scraped: 2026-02-23
+Title: Los Alamos National Laboratory - Facebook
+Snippet: Jan 29, 2026 ... From scout drones detecting fire ignitions in dense forests to autonomous water gliders delivering fire ... wildfire detection and response. The first ...
+Link: https://www.facebook.com/LosAlamosNationalLab/posts/congratulations-to-the-fifth-cohort-of-deep-tech-innovators-with-the-new-mexico-/1318851300274492/
+----------------------------------------
+Date Scraped: 2026-02-23
+Title: Drone Remote Sensing for Precision Agriculture - LinkedIn
+Snippet: Feb 14, 2026 ... ... remote sensing techniques for agriculture. We aim to integrate UAV-based sensing, spectral index design, and robust machine learning into resilient, data ...
+Link: https://www.linkedin.com/posts/ce-yang-umn_drone-remote-sensing-is-a-core-technology-activity-7428441066242199552-m-Fq
+----------------------------------------
+Date Scraped: 2026-02-23
+Title: UAV Remote Sensing for Environmental and Agricultural Applications
+Snippet: Feb 9, 2026 ... Integration of in situ measurements with UAV-based remote sensing data. Design and implementation of automated UAV monitoring systems. Precision agriculture ...
+Link: https://www.mdpi.com/journal/applsci/special_issues/NSM29J430W
+----------------------------------------
+Date Scraped: 2026-02-23
+Title: The bigger, the better? Sample size effects in drone-estimated forest ...
+Snippet: Feb 9, 2026 ... Thus, drones are increasingly used in forest remote sensing due to their high spatial resolution and operational flexibility. They support individual tree ...
+Link: https://link.springer.com/article/10.1007/s11676-026-02008-z
+----------------------------------------
