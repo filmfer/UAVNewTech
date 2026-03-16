@@ -479,3 +479,48 @@ Title: Exploring the potential of Harmonized Landsat-Sentinel-2 in ...
 Snippet: 5 days ago ... Forest characterization based on remote sensing is not spatially limited to areas captured in forest ... UAV-LiDAR in remote sensing workflows and ...
 Link: https://www.sciencedirect.com/science/article/pii/S2666017226000416
 ----------------------------------------
+Date Scraped: 2026-03-16
+Title: Using Drones to See the Forest Assessing a forest's ... - Instagram
+Snippet: 7 days ago ... Today, the industry uses drones, satellites and LiDAR (Light Detection and ... outbreaks, fire risks and more. The future of responsible forestry lies ...
+Link: https://www.instagram.com/p/DVq2u69EtGG/
+----------------------------------------
+Date Scraped: 2026-03-16
+Title: Surveying and monitoring BC's forests has come a long ... - Instagram
+Snippet: Mar 2, 2026 ... ... outbreaks, fire risks and more. The future of responsible forestry lies ... Today, the industry uses drones, satellites and LiDAR (Light Detection and ...
+Link: https://www.instagram.com/p/DVY0SQugbO2/
+----------------------------------------
+Date Scraped: 2026-03-16
+Title: LiDAR Technology and Slash Walls Advance Sustainable Forestry
+Snippet: 7 days ago ... Forest regeneration across the Northeastern United States is increasingly threatened by over-browsing from high deer populations, which limits seedling ...
+Link: https://cals.cornell.edu/news/2026/03/lidar-technology-and-slash-walls-advance-sustainable-forestry
+----------------------------------------
+Date Scraped: 2026-03-16
+Title: State-of-the-art LiDAR and hyperspectral technology to boost ...
+Snippet: 7 days ago ... LiDAR technology is a remote sensing ... technology to strengthen research in sustainable agriculture, genetic improvement, and forest monitoring.
+Link: https://blog.ctfc.cat/en/state-of-the-art-lidar-and-hyperspectral-technology-to-boost-research-in-precision-agriculture-and-monitoring-of-forest-systems/
+----------------------------------------
+Date Scraped: 2026-03-16
+Title: How LiDAR Technology Is Transforming Modern Surveying?
+Snippet: 6 days ago ... Know how LiDAR is reshaping modern surveying with faster field capture, safer workflows, and defensible 3D deliverables. See how BEAD applies drone LiDAR to ...
+Link: https://birdseyeaerialdrones.com/lidar-technology-transforming-modern-surveying/
+----------------------------------------
+Date Scraped: 2026-03-16
+Title: Development of a Forest Fire Detection System Using a Drone ...
+Snippet: Feb 17, 2026 ... In this study, a drone-based forest fire detection system was developed using a convolutional neural network (CNN) model. Real-time forest fire detection models ...
+Link: http://www.ijfse.or.kr/upload/pdf/KIFSE-26686d3f.pdf
+----------------------------------------
+Date Scraped: 2026-03-16
+Title: A Review on Forest Fire Detection Techniques: Past, Present, and ...
+Snippet: Mar 4, 2026 ... Recently, there has been a noticeable shift toward ground-based sensors, automated camera systems, aerial surveillance using drones and aircraft, and satellite ...
+Link: https://pubmed.ncbi.nlm.nih.gov/41829581/
+----------------------------------------
+Date Scraped: 2026-03-16
+Title: Remote sensing of tropical forest recovery: A review and decision ...
+Snippet: 12 hours ago ... UAV-based remote sensing (2015–present). UAVs have become powerful tools for fine-scale forest monitoring, especially at local and site levels. Equipped with ...
+Link: https://www.sciencedirect.com/science/article/pii/S0034425726000271
+----------------------------------------
+Date Scraped: 2026-03-16
+Title: Indian Institute of Remote Sensing
+Snippet: 1 day ago ... Saturday, March 14, 2026. Certificate Validation System. Enrollment no. Unique Id. Captcha. Copyright © 2017 IIRS, ISRO. All rights reserved.
+Link: https://certificate.iirs.gov.in/
+----------------------------------------
