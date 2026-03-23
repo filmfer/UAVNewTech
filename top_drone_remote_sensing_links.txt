@@ -524,3 +524,23 @@ Title: Indian Institute of Remote Sensing
 Snippet: 1 day ago ... Saturday, March 14, 2026. Certificate Validation System. Enrollment no. Unique Id. Captcha. Copyright © 2017 IIRS, ISRO. All rights reserved.
 Link: https://certificate.iirs.gov.in/
 ----------------------------------------
+Date Scraped: 2026-03-23
+Title: Yu She, assistant professor of Purdue University Edwardson School ...
+Snippet: Mar 4, 2026 ... Our AI is built upon the world's best human intelligence on crops. Drones equipped with cameras automatically detect early disease stages in plants and notify ...
+Link: https://www.facebook.com/PurdueAg/posts/yu-she-assistant-professor-of-purdue-university-edwardson-school-of-industrial-e/1414421780697922/
+----------------------------------------
+Date Scraped: 2026-03-23
+Title: BGC-LiteNet: BeiDou grid code embedded lightweight neural ...
+Snippet: 2 days ago ... Boreal forest fire: UAV-collected wildfire detection and smoke segmentation dataset. Sci. Data 12, 1419 (2025). Google Scholar. Abdusalomov, A. et al. Drone ...
+Link: https://www.nature.com/articles/s41598-026-44728-6
+----------------------------------------
+Date Scraped: 2026-03-23
+Title: A Review on Forest Fire Detection Techniques - PMC - NIH
+Snippet: Mar 4, 2026 ... Recently, there has been a noticeable shift toward ground-based sensors, automated camera systems, aerial surveillance using drones and aircraft, and satellite ...
+Link: https://pmc.ncbi.nlm.nih.gov/articles/PMC12987208/
+----------------------------------------
+Date Scraped: 2026-03-23
+Title: (PDF) From Satellite to UAV-Based Remote Sensing: A Review on ...
+Snippet: 7 days ago ... The applications of remote sensing technologies to precision agriculture were reviewed. The different uses of conventional satellites and unmanned aerial ...
+Link: https://www.researchgate.net/publication/375479065_From_Satellite_to_UAV-based_Remote_Sensing_A_Review_on_Precision_Agriculture
+----------------------------------------
