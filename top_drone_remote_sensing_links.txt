@@ -679,3 +679,23 @@ Title: Intelligent Classification of Dominant Tree Species in Urban Forests ...
 Snippet: Apr 7, 2026 ... Article. Intelligent Classification of Dominant Tree Species in Urban Forests Based on UAV Hyperspectral Remote Sensing Images.
 Link: https://www.sciencedirect.com/science/article/pii/S2589004226010084
 ----------------------------------------
+Date Scraped: 2026-04-27
+Title: What if the biggest barrier to scientific discovery isn't technology
+Snippet: Apr 13, 2026 ... Our drone systems, equipped with LiDAR and AI-powered processing, now generate 3D models of entire watersheds, identifying individual tree species and potential ...
+Link: https://www.instagram.com/p/DXEqOUgDCfJ/
+----------------------------------------
+Date Scraped: 2026-04-27
+Title: Monitoring Streambank Morphology using iPhone LiDAR Technology
+Snippet: 2 days ago ... Degree Name. Bachelor of Science in Biological Engineering ; Degree Level. Undergraduate ; Department. Biological and Agricultural Engineering ; Advisor/Mentor. Dr ...
+Link: https://scholarworks.uark.edu/baeguht/107/
+----------------------------------------
+Date Scraped: 2026-04-27
+Title: Busy airspace | US Forest Service
+Snippet: 4 days ago ... A drone on a launch pad while a large forest fire burns in the background. ... “They use a system to detect drones the second someone turns them on. They ...
+Link: https://www.fs.usda.gov/about-agency/features/busy-airspace
+----------------------------------------
+Date Scraped: 2026-04-27
+Title: A Methodology for Forest Fire Detection and Notification Using AI ...
+Snippet: 4 days ago ... This study explores how advanced technology has revolutionized the use of drones for forest fire surveillance. This research study explores the historical ...
+Link: https://ieeexplore.ieee.org/document/10467597/
+----------------------------------------
