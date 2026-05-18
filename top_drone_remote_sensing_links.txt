@@ -538,3 +538,28 @@ Title: Drought responses of a Norway spruce forest on drained peat soil
 Snippet: 4 days ago ... ... Unmanned Aerial Vehicle (UAV) remote sensing. A dataset combining eddy-covariance (EC) fluxes, sap-flow sensors, UAV mapping, soil and weather data was ...
 Link: https://egusphere.copernicus.org/preprints/2026/egusphere-2026-568/
 ----------------------------------------
+Date Scraped: 2026-05-18
+Title: Advanced Farming Market is set to surge with precision agriculture ...
+Snippet: Apr 23, 2026 ... ... drones evolve, they could even predict outbreaks before they start. Could AI be the secret weapon that feeds our growing world? The future of farming might ...
+Link: https://www.instagram.com/p/DXeI7jPl9Ty/
+----------------------------------------
+Date Scraped: 2026-05-18
+Title: NOAA National Severe Storms Laboratory - Facebook
+Snippet: Apr 29, 2026 ... ... LiDAR measuring ground-level winds inside the tornado. 🌬️ HailCam capturing massive hailstones in free-fall Drones reporting storm fuel and giving ...
+Link: https://www.facebook.com/NOAA.NSSL/posts/-storm-season-is-here-and-groundbreaking-science-is-underway-%EF%B8%8F%EF%B8%8F-nssls-low-level-/1379360387568630/
+----------------------------------------
+Date Scraped: 2026-05-18
+Title: What Is LiDAR Technology? A Complete Guide | CHCNA - Chcnav
+Snippet: 4 days ago ... We offer tractor guidance and auto-steering systems for farms of any size, powered by GPS farming technologies. Improve your precision agriculture practices ...
+Link: https://www.chcnav.com/about/news/2026/what-is-lidar-technology-a-complete-guide
+----------------------------------------
+Date Scraped: 2026-05-18
+Title: Automatic Smoke and Wildfire Detection System by SmokeD
+Snippet: Apr 29, 2026 ... The SmokeD automatic wildfire system monitors the area 24/7. Wildfire detection system assures you with safety and protection. Find out more about our work.
+Link: https://smokedsystem.com/
+----------------------------------------
+Date Scraped: 2026-05-18
+Title: SLU - Forest Remote Sensing's Post - LinkedIn
+Snippet: 6 days ago ... In our new study, “Linking hyperspectral remote sensing and tree hydraulic functioning for pre-emergence detection of bark beetle infestations” we combine UAV ...
+Link: https://www.linkedin.com/posts/forest-remote-sensing-slu_remotesensing-foresthealth-hyperspectral-activity-7459887435666104320-WKL3
+----------------------------------------
