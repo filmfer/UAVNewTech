@@ -563,3 +563,38 @@ Title: SLU - Forest Remote Sensing's Post - LinkedIn
 Snippet: 6 days ago ... In our new study, “Linking hyperspectral remote sensing and tree hydraulic functioning for pre-emergence detection of bark beetle infestations” we combine UAV ...
 Link: https://www.linkedin.com/posts/forest-remote-sensing-slu_remotesensing-foresthealth-hyperspectral-activity-7459887435666104320-WKL3
 ----------------------------------------
+Date Scraped: 2026-05-25
+Title: Climatic intelligence vs. Fruit Fly: Predicting outbreaks in ... - Instagram
+Snippet: 4 days ago ... ... UAV LiDAR geometry and in-field soil moisture sensing. This research is part ... - AI Data-Fusion: The platform combines drone point clouds (LiDAR) ...
+Link: https://www.instagram.com/p/DYm1MZkFeXF/
+----------------------------------------
+Date Scraped: 2026-05-25
+Title: Solid-State Lidar in Agriculture: Enhancing Yield Prediction Accuracy
+Snippet: Apr 27, 2026 ... Solid-state lidar technology has emerged as a transformative force in precision agriculture, offering unprecedented capabilities for crop monitoring and yield ...
+Link: https://eureka.patsnap.com/report-solid-state-lidar-in-agriculture-enhancing-yield-prediction-accuracy
+----------------------------------------
+Date Scraped: 2026-05-25
+Title: From Detection to Suppression: Drones Join Fleet of Wildfire ...
+Snippet: Apr 28, 2026 ... When a fire is detected through the local dispatch system, the drones launch automatically with the goal of reaching the fire within 3–10 minutes, using thermal ...
+Link: https://www.commercialuavnews.com/wildfire-detection-mitigation-drones
+----------------------------------------
+Date Scraped: 2026-05-25
+Title: Fire-YOLO26: an NMS-free dual-stream RGB–thermal network for ...
+Snippet: 5 days ago ... Early and reliable forest fire detection is essential for ecological security and emergency response, yet UAV-based detectors often suffer from NMS-induced ...
+Link: https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2026.1824597/full
+----------------------------------------
+Date Scraped: 2026-05-25
+Title: Ahmed Harb Rabia, Ph.D's Post - LinkedIn
+Snippet: May 8, 2026 ... Associate professor in Precision Agriculture and Remote Sensing || Drone Pilot || Soil Scientist || ... PrecisionAgriculture #UAV #RemoteSensing ...
+Link: https://www.linkedin.com/posts/ahmed-rabia2_bvlos-uav-precision-activity-7458643816384995328-o74J
+----------------------------------------
+Date Scraped: 2026-05-25
+Title: Digital Forestry - Purdue University
+Snippet: May 4, 2026 ... Area 3 — UAV and Multimodal Remote Sensing. Our remote sensing work applies UAV-based platforms and multimodal AI frameworks to monitor forest ecosystems from ...
+Link: https://www.purdue.edu/fnr/nrsa-lab/digital-forestry/
+----------------------------------------
+Date Scraped: 2026-05-25
+Title: A UAV-based spatial monitoring framework integrating seasonal ...
+Snippet: 7 days ago ... Multi-year UAV data reveal spatial structure of urban forest dynamics ... Remote sensing has also become a useful approach for monitoring urban ...
+Link: https://www.sciencedirect.com/science/article/abs/pii/S1618866726002487
+----------------------------------------
