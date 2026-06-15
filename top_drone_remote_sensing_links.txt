@@ -483,3 +483,33 @@ Title: Assessing the capability of UAV LiDAR to extract understory ...
 Snippet: 3 days ago ... Optical remote sensing can retrieve forest background reflectance from multi-angular observations and establish relationships with understory leaf area index ...
 Link: https://www.sciencedirect.com/science/article/abs/pii/S016819232600242X
 ----------------------------------------
+Date Scraped: 2026-06-15
+Title: Assessing Protective Effect of Disturbed Forests on Rockfall - LinkedIn
+Snippet: May 31, 2026 ... ... outbreaks We combined UAV-based remote sensing with field surveys to ... 27+ Years in Drone, LiDAR & GeoAI Infrastructure, Environment & Public Safety.
+Link: https://www.linkedin.com/posts/christine-moos-515585183_rockfall-relevant-terrain-roughness-in-disturbed-activity-7467104819954999296-9EB8
+----------------------------------------
+Date Scraped: 2026-06-15
+Title: Brian Smith's Post - LinkedIn
+Snippet: 7 days ago ... ... technology, #entrepreneurship, #STEM education, #precision #agriculture, #LiDAR, or a regional collaboration, I would love to connect and discuss how we can ...
+Link: https://www.linkedin.com/posts/brianandresmith_belize-ylai-technology-activity-7469536602814394368-IboH
+----------------------------------------
+Date Scraped: 2026-06-15
+Title: UAV forest fire detection based on lightweight YOLOv5 model. - Ebsco
+Snippet: May 29, 2026 ... Discover this 2024 paper in Multimedia Tools & Applications by Zhou, Mengdong; Wu, Lei; Liu, Shuai; et. al. focusing on: FOREST fires; FOREST fire ...
+Link: https://openurl.ebsco.com/contentitem/gcd:178131096?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:178131096&crl=c&jrnl=13807501
+----------------------------------------
+Date Scraped: 2026-06-15
+Title: Multi-UAV Active Sensing with Information Gain-based Planning and ...
+Snippet: 5 days ago ... II Related Work. UAV-based monitoring has been widely studied in precision agriculture and remote sensing. Low-altitude UAV remote sensing provides high spatial ...
+Link: https://arxiv.org/html/2606.10986v1
+----------------------------------------
+Date Scraped: 2026-06-15
+Title: High-Precision Individual Tree Canopy Segmentation from UAV ...
+Snippet: 4 days ago ... Canopy segmentation is a crucial step in obtaining canopy parameters in forestry remote sensing, and it holds significant importance for research areas such ...
+Link: https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2026.1861186/full
+----------------------------------------
+Date Scraped: 2026-06-15
+Title: Improving Forest Structure Analysis with UAV Photogrammetry
+Snippet: Jun 1, 2026 ... ... Forest #Structure Analysis by Consumer-Grade #UAV ... Improving Forest Structure Analysis with UAV Photogrammetry. View organization page for Remote Sensing MDPI.
+Link: https://www.linkedin.com/posts/remote-sensing-mdpi_forest-structure-uav-activity-7467208505691758592-VV1F
+----------------------------------------
