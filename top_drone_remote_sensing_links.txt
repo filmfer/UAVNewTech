@@ -513,3 +513,43 @@ Title: Improving Forest Structure Analysis with UAV Photogrammetry
 Snippet: Jun 1, 2026 ... ... Forest #Structure Analysis by Consumer-Grade #UAV ... Improving Forest Structure Analysis with UAV Photogrammetry. View organization page for Remote Sensing MDPI.
 Link: https://www.linkedin.com/posts/remote-sensing-mdpi_forest-structure-uav-activity-7467208505691758592-VV1F
 ----------------------------------------
+Date Scraped: 2026-06-22
+Title: Draganfly to Unveil Three New Cutting Edge Drone Products at the ...
+Snippet: Jun 11, 2026 ... Draganfly to Unveil Three New Cutting Edge Drone Products at the Commercial UAV Expo in Las Vegas ... Drone and the company's new Long Range LiDAR System at booth ...
+Link: https://draganfly.com/press-release/draganfly-to-unveil-three-new-cutting-edge-drone-products-at-the-commercial-uav-expo-in-las-vegas/
+----------------------------------------
+Date Scraped: 2026-06-22
+Title: Laser technologies in agri-food systems: Enhancing efficiency ...
+Snippet: Jun 8, 2026 ... Laser technology has emerged as a valuable tool in both sustainable agriculture and advanced food processing. Over the past 20 years, there has been a steady ...
+Link: https://www.sciencedirect.com/science/article/pii/S2666154326003820
+----------------------------------------
+Date Scraped: 2026-06-22
+Title: Topcon Positioning Systems, Inc.
+Snippet: 3 days ago ... 3D laser scanners · GNSS antennas · GNSS bases and rovers · GNSS boards · GNSS ... Big Farm Technology. Small Budget Prices. Introducing Value Line Steering.
+Link: https://www.topconpositioning.com/
+----------------------------------------
+Date Scraped: 2026-06-22
+Title: Drones in Wildfire Response: Transforming Firefighting - BonV Aero
+Snippet: Jun 9, 2026 ... Discover how drones are transforming wildfire response with real-time monitoring, faster detection, and improved firefighter safety in high-risk ...
+Link: https://bonvaero.com/role-of-drones-in-wildfire-response/
+----------------------------------------
+Date Scraped: 2026-06-22
+Title: UAV-Based Remote Sensing and Artificial Intelligence for Climate ...
+Snippet: Jun 9, 2026 ... Unmanned aerial vehicle (UAV)-based remote sensing combined with artificial intelligence (AI) has emerged as a key enabler of climate-smart agriculture ...
+Link: https://www.mdpi.com/2504-446X/10/6/451
+----------------------------------------
+Date Scraped: 2026-06-22
+Title: (PDF) Hyperspectral Imaging: A Review on UAV-Based Sensors ...
+Snippet: Jun 10, 2026 ... Hyperspectral Remote Sensing (Sahoo's Report); Indian Agricultural Statistics Research Institute: New Delhi, India, 2013; pp. 848–859. 19 ...
+Link: https://www.researchgate.net/publication/320716685_Hyperspectral_Imaging_A_Review_on_UAV-Based_Sensors_Data_Processing_and_Applications_for_Agriculture_and_Forestry
+----------------------------------------
+Date Scraped: 2026-06-22
+Title: focus on monitoring methods, challenges, and prospects in forests
+Snippet: May 27, 2026 ... Remote sensing technology /; Forestry management /; UAV thermal imaging /; Spectral remote sensing ... In the fire situation monitoring of forest fires, UAV ...
+Link: https://www.maxapress.com/article/doi/10.48130/smartfor-0026-0007
+----------------------------------------
+Date Scraped: 2026-06-22
+Title: Jobs - PhD position in forest ecology and remote sensing (Slovakia)
+Snippet: May 27, 2026 ... Research activities combine field ecology with satellite, UAV, and aerial data to better understand disturbance dynamics in European forest ecosystems. The team ...
+Link: https://www.egu.eu/jobs/8158/phd-position-in-forest-ecology-and-remote-sensing-slovakia/
+----------------------------------------
