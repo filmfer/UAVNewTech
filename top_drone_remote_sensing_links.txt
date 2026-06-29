@@ -553,3 +553,33 @@ Title: Jobs - PhD position in forest ecology and remote sensing (Slovakia)
 Snippet: May 27, 2026 ... Research activities combine field ecology with satellite, UAV, and aerial data to better understand disturbance dynamics in European forest ecosystems. The team ...
 Link: https://www.egu.eu/jobs/8158/phd-position-in-forest-ecology-and-remote-sensing-slovakia/
 ----------------------------------------
+Date Scraped: 2026-06-29
+Title: Teesside Oil Terminal, like many ConocoPhillips assets, has used ...
+Snippet: 6 days ago ... Equipped with advanced sensors for visual, infrared, or LIDAR imaging, drones play a crucial role in enhancing operational efficiency and safety. Recent ...
+Link: https://www.facebook.com/conocophillips/posts/teesside-oil-terminal-like-many-conocophillips-assets-has-used-piloted-drones-fo/1461575419337364/
+----------------------------------------
+Date Scraped: 2026-06-29
+Title: 6 Ways Drones Are Revolutionising Forestry in Canada - Candrone
+Snippet: Jun 11, 2026 ... Discover how Canadian forestry teams use drone LiDAR, multispectral imaging ... By the time a pest outbreak or disease is visible to the naked eye ...
+Link: https://candrone.com/blogs/news/6-ways-drones-are-revolutionising-forestry-in-canada
+----------------------------------------
+Date Scraped: 2026-06-29
+Title: Drone LiDAR & Airborne LiDAR Systems for UAV
+Snippet: Jun 15, 2026 ... Introduction to Drone LiDAR Technology. Drone LiDAR (Light Detection and ... Commercial farming operations rely on high-resolution airborne LiDAR ...
+Link: https://www.unmannedsystemstechnology.com/expo/drone-lidar/
+----------------------------------------
+Date Scraped: 2026-06-29
+Title: Integrated Forest Fire Detection System for Identifying Living Beings ...
+Snippet: 2 days ago ... Integrated Forest Fire Detection System for Identifying Living Beings Using Drones by Employing Custom TrainedYOLOv5 Model. Abstract: The substantial threat ...
+Link: https://ieeexplore.ieee.org/abstract/document/10560880/
+----------------------------------------
+Date Scraped: 2026-06-29
+Title: Integrating SLAM LiDAR, UAV-LiDAR, and Orbital Remote Sensing ...
+Snippet: 1 day ago ... First SLAM LiDAR framework for passive restoration monitoring in the Cerrado. Abstract. Monitoring forest regeneration in savanna ecosystems remains a major ...
+Link: https://www.sciencedirect.com/science/article/abs/pii/S235293852600265X
+----------------------------------------
+Date Scraped: 2026-06-29
+Title: #remotesensing #uav #lidar #forestry #silviculture | Liam Irwin
+Snippet: 4 days ago ... ... forest stands. Planning treatments, assessing removals, and predicting ... Forests! #RemoteSensing #UAV #lidar #Forestry #Silviculture.
+Link: https://www.linkedin.com/posts/liam-irwin-795356115_remotesensing-uav-lidar-activity-7475899792728961024-YNvt
+----------------------------------------
