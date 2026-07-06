@@ -448,3 +448,28 @@ Title: #remotesensing #uav #lidar #forestry #silviculture | Liam Irwin
 Snippet: 4 days ago ... ... forest stands. Planning treatments, assessing removals, and predicting ... Forests! #RemoteSensing #UAV #lidar #Forestry #Silviculture.
 Link: https://www.linkedin.com/posts/liam-irwin-795356115_remotesensing-uav-lidar-activity-7475899792728961024-YNvt
 ----------------------------------------
+Date Scraped: 2026-07-06
+Title: INNOVATION: AI-powered drones could transform mosquito control ...
+Snippet: 3 days ago ... ... drones could spot mosquito breeding sites before disease outbreaks occur? ... LiDAR technology, the system identifies mosquitoes mid-flight and eliminates ...
+Link: https://www.facebook.com/Ifakarahealth/posts/-innovationai-powered-drones-could-transform-mosquito-control-in-tanzania-what-i/1487302513438747/
+----------------------------------------
+Date Scraped: 2026-07-06
+Title: Elevation Technical Working Group | Idaho Geospatial Office
+Snippet: Jun 11, 2026 ... LiDAR is a laser-based technology that provides 3-dimensional (3-D) data to develop bare earth, canopy, and other models of the earth's surface necessary ...
+Link: https://gis.idaho.gov/elevation-technical-working-group
+----------------------------------------
+Date Scraped: 2026-07-06
+Title: The Future of AI Lidar: Transforming Tech with Intelligent Scanning
+Snippet: 2 days ago ... How AI Lidar Technology Works ... Drones equipped with this technology perform aerial surveys for agriculture, mapping crop health and field topography with ...
+Link: https://www.randall-travel-award.missouri.edu/ai-lidar-3210001870.html
+----------------------------------------
+Date Scraped: 2026-07-06
+Title: MFFDet: Enhancing Multi-Scale Forest Fire Detection in UAV Imagery
+Snippet: 2 days ago ... In Unmanned aerial vehicle (UAV) forest fire detection, flames and smoke exhibit dramatic scale variations. Existing methods often struggle with multi-scale ...
+Link: https://www.mdpi.com/2571-6255/9/7/278
+----------------------------------------
+Date Scraped: 2026-07-06
+Title: Remote sensing and artificial intelligence for crop pest and disease ...
+Snippet: Jun 7, 2026 ... UAVs: Consistent with this trade-off, UAVs have established themselves as one of the most versatile tools in precision agricultural monitoring. Their ability to ...
+Link: https://www.sciencedirect.com/science/article/pii/S2772375526005046
+----------------------------------------
