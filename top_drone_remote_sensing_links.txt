@@ -473,3 +473,43 @@ Title: Remote sensing and artificial intelligence for crop pest and disease ...
 Snippet: Jun 7, 2026 ... UAVs: Consistent with this trade-off, UAVs have established themselves as one of the most versatile tools in precision agricultural monitoring. Their ability to ...
 Link: https://www.sciencedirect.com/science/article/pii/S2772375526005046
 ----------------------------------------
+Date Scraped: 2026-07-13
+Title: Forestry - Precision GNSS
+Snippet: Jun 16, 2026 ... UAV / drone with RTK and LiDAR or photogrammetry — Fixed-wing and multi ... outbreaks and illegal clearing, and volume calculations for log decks ...
+Link: https://www.precision-gnss.com/rtk-application/precision-forestry/
+----------------------------------------
+Date Scraped: 2026-07-13
+Title: Hesai Technology expands in U.S. despite Pentagon blacklist - CNBC
+Snippet: 6 days ago ... ... lidar technology. David Li, Hesai's co-founder and CEO, says the narrative ... technology company Nuro; and agricultural automation firm Agtonomy. The ...
+Link: https://www.cnbc.com/2026/07/07/hesai-technology-nvidia-cyber-risk.html
+----------------------------------------
+Date Scraped: 2026-07-13
+Title: Governor Newsom launches “FireSat” wildfire-detection satellites to ...
+Snippet: 6 days ago ... ... drones, satellite monitoring, real-time fire modeling, and advanced mapping technologies that help firefighters detect fires earlier, predict their spread ...
+Link: https://www.gov.ca.gov/2026/07/07/californias-wildfire-defense-blasts-off-governor-newsom-launches-firesat-wildfire-detection-satellites-to-spot-blazes-from-space/
+----------------------------------------
+Date Scraped: 2026-07-13
+Title: UAV-satellite synergies for crop monitoring - ScienceDirect.com
+Snippet: 7 days ago ... These insights provide a theoretical foundation and practical guidance for advancing UAV-satellite synergies specially for agricultural remote sensing.
+Link: https://www.sciencedirect.com/science/article/abs/pii/S0924271626003448
+----------------------------------------
+Date Scraped: 2026-07-13
+Title: (PDF) Applications of UAV Thermal Imagery in Precision Agriculture
+Snippet: Jun 20, 2026 ... PDF | Low-altitude remote sensing (RS) using unmanned aerial vehicles (UAVs) is a powerful tool in precision agriculture (PA). In that context, thermal.
+Link: https://www.researchgate.net/publication/341253627_Applications_of_UAV_Thermal_Imagery_in_Precision_Agriculture_State_of_the_Art_and_Future_Research_Outlook
+----------------------------------------
+Date Scraped: 2026-07-13
+Title: Predicting physiological health states of tropical papaya using UAV ...
+Snippet: 7 days ago ... Recent advances in unmanned aerial vehicle (UAV) remote sensing ... Perspectives for remote sensing with unmanned aerial vehicles in precision agriculture.
+Link: https://www.sciencedirect.com/science/article/pii/S3117409426000176
+----------------------------------------
+Date Scraped: 2026-07-13
+Title: PhD Opportunity in Forest Ecology and Remote Sensing // 30 June ...
+Snippet: Jun 30, 2026 ... The successful candidate will investigate the dynamics of spruce bark beetle outbreaks using satellite, aerial, and UAV-based remote sensing data combined with ...
+Link: https://www.iufro.org/position-announcement/phd-opportunity-in-forest-ecology-and-remote-sensing-30-june-2026
+----------------------------------------
+Date Scraped: 2026-07-13
+Title: Multispectral UAV imagery-based forest tree species classification ...
+Snippet: Jul 4, 2026 ... Provides an efficient, cost-effective solution for large-scale forest monitoring. Abstract. Multispectral unmanned aerial vehicle (UAV) remote sensing offers ...
+Link: https://www.sciencedirect.com/science/article/abs/pii/S0168169926005612
+----------------------------------------
