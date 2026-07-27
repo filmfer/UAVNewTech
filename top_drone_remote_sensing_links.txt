@@ -548,3 +548,33 @@ Title: Improving the Generalization of UAV-Based Forest Biomass ...
 Snippet: 5 days ago ... ... forest carbon monitoring and management. Keywords: Forest aboveground biomass, UAV remote sensing, Multimodal fusion, Transfer learning, Cross-region modeling.
 Link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7118983
 ----------------------------------------
+Date Scraped: 2026-07-27
+Title: Geospatial Analysis Software & GIS for Mapping & Data Insights
+Snippet: Jul 7, 2026 ... High Precision, Long-Range UAV LiDAR & Drone LiDAR Mapping Solutions. Visit ... Cluster analysis – Detects geographic patterns, such as disease outbreaks ...
+Link: https://www.unmannedsystemstechnology.com/expo/geospatial-analysis-software/
+----------------------------------------
+Date Scraped: 2026-07-27
+Title: (PDF) The use of terrestrial LiDAR technology in forest science
+Snippet: Jul 12, 2026 ... LiDAR may be used through mobile, terrestrial, and airborne methods (Li et al., 2021) and is currently applied in industries such as agriculture, self-driving ...
+Link: https://www.researchgate.net/publication/225424287_The_use_of_terrestrial_LiDAR_technology_in_forest_science_Application_Fields_Benefits_and_Challenges
+----------------------------------------
+Date Scraped: 2026-07-27
+Title: UAV-based LiDAR technology facilitates high-throughput ...
+Snippet: 5 days ago ... UAV-based LiDAR technology facilitates high-throughput phenotyping in maize breeding trials ... In a study published in Journal of Integrative Agriculture, a team ...
+Link: https://www.eurekalert.org/news-releases/1137160
+----------------------------------------
+Date Scraped: 2026-07-27
+Title: YOLO-MR: An Efficient Forest Fire Detection Framework with ... - MDPI
+Snippet: Jul 17, 2026 ... This study proposes YOLO-MR, a compact and efficient forest fire detection framework based on YOLOv8n for UAV-assisted intelligent forestry monitoring. The ...
+Link: https://www.mdpi.com/2071-1050/18/14/7331
+----------------------------------------
+Date Scraped: 2026-07-27
+Title: Governor Newsom highlights robust investments in fire prevention ...
+Snippet: 5 days ago ... What you need to know: California is growing its wildfire-fighting arsenal, including satellites, AI-guided drones, the nation's largest state-owned aerial ...
+Link: https://www.gov.ca.gov/2026/07/21/governor-newsom-highlights-robust-investments-in-fire-prevention-and-cutting-edge-firefighting-technology-to-combat-wildfire-and-save-lives/
+----------------------------------------
+Date Scraped: 2026-07-27
+Title: From air to algorithm: How drones are training AI models for forest ...
+Snippet: Jun 29, 2026 ... Perry Nolan, UAS pilot and remote sensing data specialist, prepares the camera mounted to a Forest Service unmanned aircraft system before a flight over the ...
+Link: https://www.fs.usda.gov/about-agency/features/air-algorithm-how-drones-are-training-ai-models-forest-recovery
+----------------------------------------
