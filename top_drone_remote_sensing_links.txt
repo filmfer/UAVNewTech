@@ -443,3 +443,33 @@ Title: From air to algorithm: How drones are training AI models for forest ...
 Snippet: Jun 29, 2026 ... Perry Nolan, UAS pilot and remote sensing data specialist, prepares the camera mounted to a Forest Service unmanned aircraft system before a flight over the ...
 Link: https://www.fs.usda.gov/about-agency/features/air-algorithm-how-drones-are-training-ai-models-forest-recovery
 ----------------------------------------
+Date Scraped: 2026-08-03
+Title: Autonomous drones can unlock safer, faster and more scalable ...
+Snippet: 5 days ago ... As more and more companies implement business continuity plans to deal with the Covid-19 outbreak, fewer and fewer employees are able to fully function. When ...
+Link: https://www.facebook.com/conocophillips/posts/autonomous-drones-can-unlock-safer-faster-and-more-scalable-operations-capabilit/1493635556131350/
+----------------------------------------
+Date Scraped: 2026-08-03
+Title: Firefighting drones in the works as wildfires plague US nearly year ...
+Snippet: Jul 20, 2026 ... The Silvaguard autonomous firefighting drone system—developed by the German company Dryad Networks—worked with the Dryad's Silvanet wildfire detection network ...
+Link: https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round/
+----------------------------------------
+Date Scraped: 2026-08-03
+Title: Kinematic-Constrained Vision Performance Characterisation for ...
+Snippet: 6 days ago ... ... drones wildfire detection. Remote Sensing Applications: Society ... Edge computing-based real-time forest fire detection using UAV thermal and color images.
+Link: https://www.sciencedirect.com/science/article/pii/S2590123026031993
+----------------------------------------
+Date Scraped: 2026-08-03
+Title: Remote Sensing through UAVs for precision agriculture
+Snippet: 5 hours ago ... Environmental sensors integrated on the UAVs serve as key enablers of precision agriculture by delivering high resolution atmospheric and microclimatic data ...
+Link: https://www.sciencedirect.com/science/article/pii/S2772375526002959
+----------------------------------------
+Date Scraped: 2026-08-03
+Title: Drones for Agriculture: Advanced Sensing and Analysis | WUR
+Snippet: Jul 21, 2026 ... You will discover what multispectral, hyperspectral, thermal and LiDAR sensing brings to precision agriculture. Advanced remote sensing with UAVs. In the ...
+Link: https://www.wur.nl/en/education/for-professionals/programmes-and-courses/drones-agriculture-advanced-sensing-and-analysis
+----------------------------------------
+Date Scraped: 2026-08-03
+Title: Nabil EL KHATRI's Post - LinkedIn
+Snippet: Jul 9, 2026 ... ... remote sensing, while also discovering the rich history and culture of ... UAV #Research #Oxford #London #UKCEH | 13 comments on LinkedIn.
+Link: https://www.linkedin.com/posts/nabil-elkhatri_forestry-remotesensing-biomassestimation-activity-7480925532101103617-bIs9
+----------------------------------------
