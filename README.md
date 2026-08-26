@@ -1,4 +1,4 @@
-# 🚁 UAVNewTech
+# 🛰️ UAVNewTech
 
 <img width="1100" height="614" alt="image" src="https://github.com/user-attachments/assets/ac8a1aa3-06e8-4463-afbc-c3072f9ee126" />
 
