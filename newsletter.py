@@ -46,7 +46,7 @@ def determine_icon(title, summary):
     if any(k in text for k in ['satellite', 'orbit', 'space', 'sar']):
         return "🛰️"
     elif any(k in text for k in ['drone', 'uav', 'quadcopter', 'vtol']):
-        return "🚁"
+        return "🛸"
     return "📡"
 
 def generate_html(articles, is_web_version=False):
