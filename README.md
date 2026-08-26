@@ -1,4 +1,7 @@
 # 🚁 UAVNewTech
+
+<img width="1100" height="614" alt="image" src="https://github.com/user-attachments/assets/ac8a1aa3-06e8-4463-afbc-c3072f9ee126" />
+
 ### Automated Intelligence for Drones, LiDAR & Remote Sensing
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white)
