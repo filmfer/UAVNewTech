@@ -553,3 +553,38 @@ Title: Integrating SLAM LiDAR, UAV-LiDAR, and orbital remote sensing to ...
 Snippet: Aug 5, 2026 ... Random Forest outperformed XGBoost and LightGBM across all sensor combinations. •. First SLAM LiDAR framework for passive restoration monitoring in the Cerrado.
 Link: https://www.sciencedirect.com/science/article/pii/S235293852600265X
 ----------------------------------------
+Date Scraped: 2026-08-31
+Title: AI takes flight in the fight against wildfires. A new drone-based ...
+Snippet: Aug 6, 2026 ... The autonomous drones use long-range thermal imaging, hyperspectral sensors, and LiDAR ... drones to detect and respond to fire outbreaks faster. Companies like ...
+Link: https://www.facebook.com/TechnionLive/posts/-ai-takes-flight-in-the-fight-against-wildfiresa-new-drone-based-wildfire-detect/1456888443149073/
+----------------------------------------
+Date Scraped: 2026-08-31
+Title: A remote sensing-based tree mortality indicator for biodiversity ...
+Snippet: 4 days ago ... Classification of tree species and standing dead trees in boreal forests using UAV-based RGB, multispectral, and LiDAR point clouds. Remote Sensing of Ecology ...
+Link: https://www.sciencedirect.com/science/article/pii/S1470160X26006369
+----------------------------------------
+Date Scraped: 2026-08-31
+Title: Technion AI Develops Advanced Wildfire Detection System with ...
+Snippet: Aug 6, 2026 ... ... outbreaks in real time, determine ... #ArtificialIntelligence #ComputerVision #DroneTechnology #UAV #MachineLearning #PublicSafety #SensorFusion #Research.
+Link: https://www.linkedin.com/posts/technion_artificialintelligence-ai-wildfiredetection-activity-7491036959797231616-iML1
+----------------------------------------
+Date Scraped: 2026-08-31
+Title: AgSentry: LiDAR reflectivity based obstacle detection for safety in ...
+Snippet: Aug 14, 2026 ... ... agricultural automation associate LiDAR ... Emerging technology in agriculture: opportunities and considerations for occupational safety and health researchers.
+Link: https://www.sciencedirect.com/science/article/pii/S2772375526002376
+----------------------------------------
+Date Scraped: 2026-08-31
+Title: Piloting Light Detection and Ranging technology (LiDAR) for fast ...
+Snippet: 21 hours ago ... Bangladesh Agricultural Research Council (BARC) and FAO are implementing the project LiDAR for fast-tracking agricultural transformation, which will financially ...
+Link: https://www.fao.org/tenure/projects/all-projects/detail/piloting-light-detection-and-ranging-technology-(lidar)-for-fast-tracking-agricultural-transformation-and-sustainable-development/en
+----------------------------------------
+Date Scraped: 2026-08-31
+Title: Cyber-Resilient Multimodal Learning for Forest Fire Detection and ...
+Snippet: Aug 10, 2026 ... Cyber-Resilient Multimodal Learning for Forest Fire Detection and Risk Prediction via Drone and Satellite Observations.
+Link: https://joiv.org/index.php/joiv/article/view/6040
+----------------------------------------
+Date Scraped: 2026-08-31
+Title: 3 Essential Remote Sensing applications in VNIR - Specim
+Snippet: Aug 18, 2026 ... ... Remote Sensing, UAV, VNIR|. View Larger Image. Introduction. Remote sensing is ... Remote sensing techniques are crucial for agriculture, forestry and mineral ...
+Link: https://www.specim.com/3-essential-remote-sensing-applications-in-vnir/
+----------------------------------------
