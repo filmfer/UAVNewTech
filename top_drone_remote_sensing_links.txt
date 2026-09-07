@@ -428,3 +428,23 @@ Title: 3 Essential Remote Sensing applications in VNIR - Specim
 Snippet: Aug 18, 2026 ... ... Remote Sensing, UAV, VNIR|. View Larger Image. Introduction. Remote sensing is ... Remote sensing techniques are crucial for agriculture, forestry and mineral ...
 Link: https://www.specim.com/3-essential-remote-sensing-applications-in-vnir/
 ----------------------------------------
+Date Scraped: 2026-09-07
+Title: Powering the Low-Altitude Economy with Intelligent Aerial ...
+Snippet: Aug 26, 2026 ... ... shaping the next generation of industry. #CHCNAV #UAV #IndustrialDrone #drones #LiDAR #vietnam. Log in. CHCNAV Reality Capture's post. CHCNAV Reality Capture.
+Link: https://www.facebook.com/61573828110402/posts/powering-the-low-altitude-economy-with-intelligent-aerial-technology-in-vietnamt/122203338848794270/
+----------------------------------------
+Date Scraped: 2026-09-07
+Title: How drone mapping can strengthen disaster-resilient urban planning
+Snippet: 7 days ago ... Research on UAV remote sensing and mapping highlights the importance of appropriate image acquisition, navigation, photogrammetry, LiDAR and data-processing ...
+Link: https://www.preventionweb.net/drr-community-voices/how-drone-mapping-can-strengthen-disaster-resilient-urban-planning
+----------------------------------------
+Date Scraped: 2026-09-07
+Title: Suzano Advances Forest Fire Detection With AI and Drones
+Snippet: 5 days ago ... Suzano combines AI, satellites and drones to detect forest fires faster and improve emergency response across its Brazilian forests.
+Link: https://www.paperadvance.com/mills-technologies/digital-automation/suzano-advances-forest-fire-detection-with-ai-and-drones.html
+----------------------------------------
+Date Scraped: 2026-09-07
+Title: Using drones for wildfire safety in Boundary Waters - Facebook
+Snippet: 7 days ago ... USDA forest service uses drones for wildfire detection. Mark ... Drones aid in wildfire detection with infrared technology. TN Wildland Fire. 1y · Public ...
+Link: https://www.facebook.com/SuperiorNF/posts/from-shoreline-to-fireline-a-boundary-waters-story-seriespart-5-the-eyes-in-the-/1529814752520631/
+----------------------------------------
