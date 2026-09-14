@@ -448,3 +448,43 @@ Title: Using drones for wildfire safety in Boundary Waters - Facebook
 Snippet: 7 days ago ... USDA forest service uses drones for wildfire detection. Mark ... Drones aid in wildfire detection with infrared technology. TN Wildland Fire. 1y · Public ...
 Link: https://www.facebook.com/SuperiorNF/posts/from-shoreline-to-fireline-a-boundary-waters-story-seriespart-5-the-eyes-in-the-/1529814752520631/
 ----------------------------------------
+Date Scraped: 2026-09-14
+Title: The Annapurna Express on X
+Snippet: 5 days ago ... ... drones, LiDAR systems, Bailey bridges, epidemic-prevention supplies, DNA testing kits, underwater drones, portable generators among others.
+Link: https://x.com/i/status/2097629449982210467
+----------------------------------------
+Date Scraped: 2026-09-14
+Title: Palmer Engineering's GIS team uses data and technology for project ...
+Snippet: 4 days ago ... https://www.basemapconsulting.com/drone-lidar- data-processing #drones #surveying #lidar #photogrammetry #solar #construction #engineering · No photo ...
+Link: https://www.facebook.com/PalmerEngineering/posts/new-on-the-palmer-blog-more-than-maps-a-look-at-palmers-gis-teamgis-is-about-a-l/1604030261519250/
+----------------------------------------
+Date Scraped: 2026-09-14
+Title: "Integrating UAV-borne LiDAR and deep learning for large-scale ...
+Snippet: Sep 3, 2026 ... 57 likes, 2 comments - ccarbon.usp on September 3, 2026: ""Integrating UAV-borne LiDAR and deep learning for large-scale detection of productive macaw palms ...
+Link: https://www.instagram.com/p/Dc0rp-Sm1Hg/
+----------------------------------------
+Date Scraped: 2026-09-14
+Title: John Deere's GUSS Taps Ouster Lidar for Autonomous Orchard ...
+Snippet: Aug 28, 2026 ... This announcement is about more than technology. It is about scaling reliable solutions that make agricultural operations more resilient and sustainable.” Rev8 ...
+Link: https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/john-deeres-guss-taps-ouster-lidar-for-autonomous-orchard-sprayers/
+----------------------------------------
+Date Scraped: 2026-09-14
+Title: A Benchmark for Sensor Placement and Drone Routing for Wildfire ...
+Snippet: 4 days ago ... To address this, we introduce WFDroneBench, an open-source Python benchmarking library for early wildfire detection that integrates machine-learned risk maps ...
+Link: https://arxiv.org/html/2609.11829v1
+----------------------------------------
+Date Scraped: 2026-09-14
+Title: U of I researcher Phinehas Lampman developed a drone-based AI ...
+Snippet: Aug 28, 2026 ... Their device ensures accurate assessments while minimizing risks. 🛩️Unmanned Arial Vehicles for Wildfire Detection Locating new wildfires quickly plays a ...
+Link: https://www.facebook.com/uidaho/posts/u-of-i-researcher-phinehas-lampman-developed-a-drone-based-ai-system-that-predic/1483494860491817/
+----------------------------------------
+Date Scraped: 2026-09-14
+Title: (PDF) A Review on UAV-Based Applications for Precision Agriculture
+Snippet: 7 days ago ... outcomes of each method and the potential applications of each one in the farming operations. Keywords: remote sensing; IoT; UAV; UAS; Unmanned ...
+Link: https://www.researchgate.net/publication/337187714_A_Review_on_UAV-Based_Applications_for_Precision_Agriculture
+----------------------------------------
+Date Scraped: 2026-09-14
+Title: UAV LiDAR-Assisted Multi-Source Remote Sensing Estimation an
+Snippet: 2 days ago ... Downloadable! Accurate estimation of regional forest carbon storage is essential for assessing forest carbon sink capacity and supporting climate change ...
+Link: https://ideas.repec.org/a/gam/jsusta/v18y2026i18p9340-d2038988.html
+----------------------------------------
