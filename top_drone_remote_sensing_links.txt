@@ -488,3 +488,58 @@ Title: UAV LiDAR-Assisted Multi-Source Remote Sensing Estimation an
 Snippet: 2 days ago ... Downloadable! Accurate estimation of regional forest carbon storage is essential for assessing forest carbon sink capacity and supporting climate change ...
 Link: https://ideas.repec.org/a/gam/jsusta/v18y2026i18p9340-d2038988.html
 ----------------------------------------
+Date Scraped: 2026-09-21
+Title: Forest recovery assessments Drone Guide
+Snippet: Sep 8, 2026 ... Drought can weaken trees across large landscapes, while disease and insect outbreaks can cause progressive canopy decline and mortality. Drones can help ...
+Link: https://associationfordrones.com/drone-applications/daa_1781081318491
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: Weed mapping drones in South East Queensland, Australia?
+Snippet: 7 days ago ... UAV/Drone/USV & Lidar Mappin... 7.2K members. Join. What are methods for drone ... The trial operation took place at Rinyirru National Park, where known outbreaks ...
+Link: https://www.facebook.com/groups/dronemappingandsurveying/posts/1394302709559595/
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: based remote sensing is a promising tool for mapping these species ...
+Snippet: 6 days ago ... Threatening a keystone species: how climate and host phenology interact to trigger eruptive outbreaks ... #ccarbonusp #usp #esalq #lidar #uav #deeplearning # ...
+Link: https://www.instagram.com/p/DdUZJeqoHmU/
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: LiDAR in Precision Agriculture: 3D Farming Technology - LinkedIn
+Snippet: Sep 4, 2026 ... LiDAR in Precision Agriculture: The 3D Future of Farming From 3D crop mapping to smarter yield prediction, technology is making farming more precise, ...
+Link: https://www.linkedin.com/posts/mohammad-sami-mir-78b066232_lidar-agtech-precisionagriculture-activity-7501630424507645953-O6FL
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: Geospatial Technology: The Core Layers | CHCNAV
+Snippet: 1 day ago ... Explore CHC Navigation precision agriculture technology: GNSS guidance, auto ... LiDAR and SLAM technology for 3D reality capture. SLAM Expands Mapping ...
+Link: https://www.chcnav.com/about/news/2026/from-gnss-to-spatial-intelligence-the-core-technologies-powering-location-based-industries
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: Zombie Fires: How Thermal Drones Detect Holdover Wildfires
+Snippet: 1 day ago ... The 2026 wildfire season is one of the most active Canada has seen in years, with hundreds of fires still burning across British Columbia and Alberta this ...
+Link: https://candrone.com/blogs/news/hunting-zombie-fires-with-drone-technology
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: Dual-path model for irrigation facility detection via UAV remote sensing
+Snippet: Sep 3, 2026 ... UAV-based remote sensing in plant stress imagine using high-resolution thermal sensor for digital agriculture practices: A meta-review. International ...
+Link: https://ijabe.org/index.php/ijabe/article/view/10532
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: IDAAS People - Purdue College of Agriculture
+Snippet: Sep 8, 2026 ... Specialties: remote sensing and UAV's, artificial intelligence, animal agriculture, digital forestry, automation and robots, soil, water, and environmental ...
+Link: https://ag.purdue.edu/idaas/people.html
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: Unveiling forest vertical structure across China through stratified ...
+Snippet: 1 day ago ... Unveiling forest vertical structure across China through stratified effective plant area index using extensive UAV LiDAR and multi-source remote sensing data.
+Link: https://www.sciencedirect.com/science/article/abs/pii/S0034425726002622
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: A High-Resolution UAV Color and CHM Dataset for Bamboo Forest ...
+Snippet: 3 days ago ... forest remote sensing and ecological monitoring. To support this, we present a high-resolution unmanned aerial vehicle (UAV) dataset for bamboo mapping in ...
+Link: https://www.nature.com/articles/s41597-026-08309-6
+----------------------------------------
+Date Scraped: 2026-09-21
+Title: MiMNet-STASF: a spatiotemporal decoupled network for sub-pixel ...
+Snippet: Sep 6, 2026 ... MiMNet-STASF: a spatiotemporal decoupled network for sub-pixel canopy structure retrieval of urban forests with multi-source long-term remote sensing time ...
+Link: https://www.sciencedirect.com/science/article/abs/pii/S0924271626003199
+----------------------------------------
