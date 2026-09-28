@@ -543,3 +543,33 @@ Title: MiMNet-STASF: a spatiotemporal decoupled network for sub-pixel ...
 Snippet: Sep 6, 2026 ... MiMNet-STASF: a spatiotemporal decoupled network for sub-pixel canopy structure retrieval of urban forests with multi-source long-term remote sensing time ...
 Link: https://www.sciencedirect.com/science/article/abs/pii/S0924271626003199
 ----------------------------------------
+Date Scraped: 2026-09-28
+Title: Drones are getting harder to detect and easier to deploy. Cities are ...
+Snippet: Sep 13, 2026 ... Drones are getting harder to detect and easier to deploy. Cities are testing everything from nets to multimillion-dollar missiles as they race to protect...
+Link: https://www.facebook.com/bloombergbusiness/posts/drones-are-getting-harder-to-detect-and-easier-to-deploy-cities-are-testing-ever/1501391788513576/
+----------------------------------------
+Date Scraped: 2026-09-28
+Title: Drones in Forestry: Sustainable Forest Management from the Air
+Snippet: 6 days ago ... Whether it is post-storm damage, pest outbreaks ... Reach out to Cindy Moore our Forestry Expert. drone lidar drone lidar cost Forestry LiDAR lidar business lidar ...
+Link: https://candrone.com/blogs/news/drones-in-forestry-sustainable-forest-management-from-the-air
+----------------------------------------
+Date Scraped: 2026-09-28
+Title: How LiDAR technology is helping Norfolk Southern see the railroad ...
+Snippet: Sep 15, 2026 ... LiDAR uses laser pulses to create highly detailed three-dimensional representations of the surrounding environment. At NS, engineering teams use LiDAR data ...
+Link: https://www.norfolksouthern.com/en/newsroom/story-yard/how-lidar-technology-is-helping-norfolk-southern-see-the-railroad-differently
+----------------------------------------
+Date Scraped: 2026-09-28
+Title: 3D laser scanner solutions for your project
+Snippet: Sep 15, 2026 ... Our advanced 3D laser scanning technology provides high-resolution 3D data ... Agriculture · Technology. Company. About us · Support · Contact us · Careers ...
+Link: https://www.topconpositioning.com/us/en/solutions/technology/infrastructure-products/3d-laser-scanners
+----------------------------------------
+Date Scraped: 2026-09-28
+Title: Fire Foresight Wins $500,000 XPRIZE Wildfire Award - Dronelife
+Snippet: 4 days ago ... The Australian-British team met the competition's 10-minute detection gate during Finals Testing near Nenana, Alaska, linking fixed cameras, AI and drone swarms ...
+Link: https://dronelife.com/2026/09/24/fire-foresight-wins-500000-xprize-wildfire-award/
+----------------------------------------
+Date Scraped: 2026-09-28
+Title: Unmanned Aerial Vehicle Applications in Forest Remote Sensing
+Snippet: 4 days ago ... Uncover the latest and most impactful research in Unmanned Aerial Vehicle Applications in Forest Remote Sensing. Explore pioneering discoveries, insightful ...
+Link: https://www.nature.com/subjects/unmanned-aerial-vehicle-applications-in-forest-remote-sensing
+----------------------------------------
