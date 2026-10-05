@@ -418,3 +418,38 @@ Title: Unmanned Aerial Vehicle Applications in Forest Remote Sensing
 Snippet: 4 days ago ... Uncover the latest and most impactful research in Unmanned Aerial Vehicle Applications in Forest Remote Sensing. Explore pioneering discoveries, insightful ...
 Link: https://www.nature.com/subjects/unmanned-aerial-vehicle-applications-in-forest-remote-sensing
 ----------------------------------------
+Date Scraped: 2026-10-05
+Title: Integrating UAV multispectral and LiDAR data with field ...
+Snippet: Sep 17, 2026 ... Chestnut ink disease, caused by Phytophthora spp., has threatened C. sativa for centuries, with renewed aggressiveness in recent decades. Continuous monitoring ...
+Link: https://www.sciencedirect.com/science/article/pii/S2352938526003915
+----------------------------------------
+Date Scraped: 2026-10-05
+Title: US military spending $500M on 'war-ready' laser weapons - NY Post
+Snippet: Sep 24, 2026 ... ... outbreak in... US News. US military spending $500M on 'war-ready' laser weapons — and zapping drones in Iran, along US border: experts. By. Michael Kaplan.
+Link: https://nypost.com/2026/09/24/us-news/us-military-spending-500m-on-war-ready-laser-weapons-experts/
+----------------------------------------
+Date Scraped: 2026-10-05
+Title: Orchard worker detection using spatial-context attention on 2D ...
+Snippet: 5 days ago ... Although 2D light detection and ranging (LiDAR) is attractive for agricultural ... Smart Agricultural Technology. (2023). A. Pal et al. A novel end-to-end vision ...
+Link: https://www.sciencedirect.com/science/article/abs/pii/S1537511026002242
+----------------------------------------
+Date Scraped: 2026-10-05
+Title: What is LiDAR technology and how does it work? - Archaeology Now
+Snippet: 3 days ago ... LiDAR, or light detection and ranging, is a popular remote sensing method used for measuring the exact distance of an object on the earth's surface. Even though ...
+Link: https://www.archaeologynow.org/blog/ngvf4qtxv92z99xwzryz4r726h1cat
+----------------------------------------
+Date Scraped: 2026-10-05
+Title: Dryad Networks Wins XPRIZE Wildfire Award for Drones, Sensor ...
+Snippet: 3 days ago ... Dryad Networks won $800000 in XPRIZE Wildfire after its Silvanet sensors and Silvaguard drones detected and suppressed fires.
+Link: https://dronelife.com/2026/10/02/dryad-networks-wins-xprize-wildfire-award-for-drones-sensor-networks/
+----------------------------------------
+Date Scraped: 2026-10-05
+Title: The Future of Wildfire Response: AI, Drones, and Robots
+Snippet: 2 days ago ... The tech is “expected to enhance early detection, tracking, suppression efficiency, and firefighter safety.”
+Link: https://www.motherjones.com/environment/2026/10/new-wildfire-response-technology-ai-drones-robots-robotic-vehicles/
+----------------------------------------
+Date Scraped: 2026-10-05
+Title: Timber fires drone update Los Padres National Forest 2026
+Snippet: 5 days ago ... The drones are also used for fire detection and to assist in monitoring areas with wildlife activity, such as the Dollar Lake Fire. U.S. Forest Service - Six ...
+Link: https://www.facebook.com/lospadresnationalforest/posts/timber-fires-evening-update-september-30-2026timber-acres-25350-88-contained-per/1553586600129899/
+----------------------------------------
