@@ -453,3 +453,38 @@ Title: Timber fires drone update Los Padres National Forest 2026
 Snippet: 5 days ago ... The drones are also used for fire detection and to assist in monitoring areas with wildlife activity, such as the Dollar Lake Fire. U.S. Forest Service - Six ...
 Link: https://www.facebook.com/lospadresnationalforest/posts/timber-fires-evening-update-september-30-2026timber-acres-25350-88-contained-per/1553586600129899/
 ----------------------------------------
+Date Scraped: 2026-10-12
+Title: A Modern Approach for Forest Monitoring and Conservation - IJSAT
+Snippet: 6 days ago ... Multispectral imaging allows researchers to identify disease outbreaks and environmental stress before visible symptoms appear. LiDAR-equipped drones have ...
+Link: https://www.ijsat.org/papers/2026/4/11612.pdf
+----------------------------------------
+Date Scraped: 2026-10-12
+Title: Real-time vegetation detection with drones - LinkedIn
+Snippet: 3 days ago ... Today, LiDAR-equipped drones, AI and real-time data processing allow us to ... outbreaks or fire risks. What this means for the future of forests ...
+Link: https://www.linkedin.com/top-content/artificial-intelligence/remote-sensing-applications/real-time-vegetation-detection-with-drones/
+----------------------------------------
+Date Scraped: 2026-10-12
+Title: LiDAR Market Size and Share, Forecasts Report 2026-2035
+Snippet: Sep 15, 2026 ... [1]Nature Communications, Evolution of laser technology for automotive LiDAR, an industrial viewpoint. ... In agriculture and forestry, the value ...
+Link: https://www.gminsights.com/industry-analysis/lidar-light-detection-and-ranging-market
+----------------------------------------
+Date Scraped: 2026-10-12
+Title: AeroResQ: Edge-accelerated UAV framework for scalable, resilient ...
+Snippet: 4 days ago ... UAVs equipped with onboard AI models offer a transformative approach to wildfire response by enabling real-time fire detection, perimeter tracking, and ...
+Link: https://www.sciencedirect.com/science/article/abs/pii/S0167739X2600213X
+----------------------------------------
+Date Scraped: 2026-10-12
+Title: Taking Wildfire Detection to the Skies Today, aircraft are ... - Facebook
+Snippet: 3 days ago ... FRIDAY FLASHBACK | Taking Wildfire Detection to the Skies Today, aircraft are an important part of wildfire response—but aviation wasn't always part...
+Link: https://www.facebook.com/DouglasForestProtectiveAssociation/posts/-friday-flashback-taking-wildfire-detection-to-the-skiestoday-aircraft-are-an-im/1436025078631193/
+----------------------------------------
+Date Scraped: 2026-10-12
+Title: High-Resolution UAV Remote Sensing for Precision Agriculture
+Snippet: Sep 25, 2026 ... High-resolution remote sensing based on unmanned aerial vehicles (UAVs) is transforming precision agriculture, providing detailed spatial and temporal ...
+Link: https://www.mdpi.com/journal/agriengineering/special_issues/E406M97TA7
+----------------------------------------
+Date Scraped: 2026-10-12
+Title: INTEGRATED UAV-IOT SENSING AND MACHINE LEARNING FOR ...
+Snippet: 7 days ago ... Agriculture 4.0; UAV remote sensing; IoT sensor networks; crop water stress; precision Introduction. Abstract. Water scarcity and outdated agricultural ...
+Link: https://geneticsmr.com/index.php/gmr/article/view/6191
+----------------------------------------
