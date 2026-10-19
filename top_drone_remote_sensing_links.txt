@@ -488,3 +488,28 @@ Title: INTEGRATED UAV-IOT SENSING AND MACHINE LEARNING FOR ...
 Snippet: 7 days ago ... Agriculture 4.0; UAV remote sensing; IoT sensor networks; crop water stress; precision Introduction. Abstract. Water scarcity and outdated agricultural ...
 Link: https://geneticsmr.com/index.php/gmr/article/view/6191
 ----------------------------------------
+Date Scraped: 2026-10-19
+Title: Space Force to deploy laser technology to defend launch sites from ...
+Snippet: Sep 29, 2026 ... The U.S. Space Force is introducing new technology, including laser systems, to help protect Cape Canaveral launch facilities from unauthorized drones as ...
+Link: https://www.fox35orlando.com/news/space-force-deploy-laser-technology-defend-launch-sites-from-drones
+----------------------------------------
+Date Scraped: 2026-10-19
+Title: Drones Help Find Three Aboriginal Rock Shelters With Red Hand ...
+Snippet: 4 days ago ... To narrow the search, the researchers flew drones equipped with LiDAR, which uses laser pulses to measure distances. The resulting data allowed them to map ...
+Link: https://www.discovermagazine.com/drones-help-find-three-aboriginal-rock-shelters-with-red-hand-stencils-49820
+----------------------------------------
+Date Scraped: 2026-10-19
+Title: LiDAR in precision agriculture for orchards and perennial tree crops
+Snippet: Sep 21, 2026 ... ... technology for perennial crop sensing. This review synthesizes LiDAR research in orchards and perennial tree crops from three perspectives: bibliometric ...
+Link: https://ui.adsabs.harvard.edu/abs/2026CEAgr.25412049L/abstract
+----------------------------------------
+Date Scraped: 2026-10-19
+Title: Drones Are Already on the Front Lines of Wildfire Response. Robots ...
+Snippet: Sep 29, 2026 ... Federal agencies already use drones to map fires, detect hotspots and ignite ... wildfire detection and tracking, suppression efficiency and firefighter safety.
+Link: https://insideclimatenews.org/news/29092026/drones-wildfire-response-ai-future/
+----------------------------------------
+Date Scraped: 2026-10-19
+Title: Forest Inventory & Remote Sensing: AI & UAV Applications - LinkedIn
+Snippet: Oct 9, 2026 ... ... remote sensing in forest monitoring and assessment. #ForestInventory #RemoteSensing #DeepLearning #Forests #Biomass #UAV #TropicalForest.
+Link: https://www.linkedin.com/posts/forests-mdpi_2026-feature-papers-activity-7514293924547436544-oj98
+----------------------------------------
