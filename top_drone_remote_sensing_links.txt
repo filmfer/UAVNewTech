@@ -513,3 +513,43 @@ Title: Forest Inventory & Remote Sensing: AI & UAV Applications - LinkedIn
 Snippet: Oct 9, 2026 ... ... remote sensing in forest monitoring and assessment. #ForestInventory #RemoteSensing #DeepLearning #Forests #Biomass #UAV #TropicalForest.
 Link: https://www.linkedin.com/posts/forests-mdpi_2026-feature-papers-activity-7514293924547436544-oj98
 ----------------------------------------
+Date Scraped: 2026-10-26
+Title: Technology - RGE (Royal Golden Eagle) Group - RGEI
+Snippet: 2 days ago ... The role of technology in precision forestry · Operating drones · LiDAR – Light Detection and Ranging · Satellite imagery and sustainability · AI modelling.
+Link: https://www.rgei.com/our-operations/precision-forestry/technology/
+----------------------------------------
+Date Scraped: 2026-10-26
+Title: Nigeria Is Latest Country with a Positive Ebola Identification in What ...
+Snippet: 4 days ago ... Prior to the current one, the next-worst outbreak occurred from 2018 to 2020 in Congo and Uganda, with 3,400 cases and 2,200 deaths. The International Rescue ...
+Link: https://www.asisonline.org/security-management-magazine/latest-news/today-in-security/2026/october/ebola-outbreak/
+----------------------------------------
+Date Scraped: 2026-10-26
+Title: Contract Drone Services — LiDAR, Thermal & Spraying | DRONES180
+Snippet: 5 days ago ... Access steep terrain and sensitive ecosystems; Rapid response to pest and disease outbreaks ... 1300 UAV PRO (1300 828 776); Australia-wide operations — contact ...
+Link: https://www.drones180.com.au/services
+----------------------------------------
+Date Scraped: 2026-10-26
+Title: Lidar - Wikipedia
+Snippet: 5 days ago ... NASA has identified lidar as a key technology for enabling autonomous precision safe landing of future robotic and crewed lunar-landing vehicles.
+Link: https://en.wikipedia.org/wiki/Lidar
+----------------------------------------
+Date Scraped: 2026-10-26
+Title: Comparative analysis of deep learning architecture for object-based ...
+Snippet: Sep 29, 2026 ... Unmanned Aerial Vehicles (UAVs) offer a complementary remote sensing ... remote sensing methodologies for precision agriculture applications. Section ...
+Link: https://www.sciencedirect.com/science/article/abs/pii/S2352938526004283
+----------------------------------------
+Date Scraped: 2026-10-26
+Title: Opportunities | NAU Radiant Center
+Snippet: Oct 14, 2026 ... The Radiant Center for Remote Sensing, in partnership with the Remote Sensing ... UAV lidar-based forest models to simulate UAV swarm flights. The ...
+Link: https://radiant.nau.edu/Jobs.html
+----------------------------------------
+Date Scraped: 2026-10-26
+Title: PhD Position in Forest Ecophysiology and Remote Sensing - EPFL
+Snippet: Oct 3, 2026 ... The project will combine plant ecophysiology, field experiments, thermal and spectral remote sensing, UAV observations, and satellite data. Initial work will ...
+Link: https://careers.epfl.ch/job/Lausanne-PhD-Position-in-Forest-Ecophysiology-and-Remote-Sensing/1165533355/
+----------------------------------------
+Date Scraped: 2026-10-26
+Title: Drought responses of a Norway spruce forest on drained peat soil - BG
+Snippet: Oct 9, 2026 ... The study confirms the expectation of stronger drought response in the denser stand and confirms the benefits of UAV remote sensing and sap flow measurement for ...
+Link: https://bg.copernicus.org/articles/23/7091/2026/
+----------------------------------------
