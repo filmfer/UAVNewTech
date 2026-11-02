@@ -393,3 +393,38 @@ Title: Drought responses of a Norway spruce forest on drained peat soil - BG
 Snippet: Oct 9, 2026 ... The study confirms the expectation of stronger drought response in the denser stand and confirms the benefits of UAV remote sensing and sap flow measurement for ...
 Link: https://bg.copernicus.org/articles/23/7091/2026/
 ----------------------------------------
+Date Scraped: 2026-11-02
+Title: Using LiDAR for forestry and tree volume measurement - Facebook
+Snippet: Oct 23, 2026 ... To get started, we'd love for you to introduce yourself: • What's your background in forestry or drones? • How are you using (or hoping to use) drone technology ...
+Link: https://www.facebook.com/groups/1508789132952429/posts/2524339708064028/
+----------------------------------------
+Date Scraped: 2026-11-02
+Title: AI Mapping Links Drones and LiDAR for Smarter Orchard Robots
+Snippet: 3 days ago ... For equipment manufacturers and agricultural technology developers, that type of digital map could have applications beyond simply keeping a robot on course.
+Link: https://www.environmentenergyleader.com/articles/45131-ai-mapping-links-drones-and-lidar-for-smarter-orchard-robots
+----------------------------------------
+Date Scraped: 2026-11-02
+Title: Oregon Department of Geology and Mineral Industries : Lidar
+Snippet: 6 days ago ... ... agriculture. Open the Oregon LiDAR Viewer map. Explore and Download ... See Oregon in a new light with incredible images created using lidar technology.
+Link: https://www.oregon.gov/dogami/lidar/pages/index.aspx
+----------------------------------------
+Date Scraped: 2026-11-02
+Title: Drones are responding to wildfires. Are AI and robots next?
+Snippet: Oct 12, 2026 ... “Drones are now a critical tool in federal wildfire response, providing real-time infrared imagery to map fire perimeters, detect hotspots, and monitor ...
+Link: https://thebulletin.org/2026/10/drones-are-responding-to-wildfires-are-ai-and-robots-next/
+----------------------------------------
+Date Scraped: 2026-11-02
+Title: Yaping Xu - UGA's Institute for Artificial Intelligence
+Snippet: Oct 14, 2026 ... His research during this period focused on applying UAV-based remote sensing and machine learning to agricultural and bioenergy systems. Before joining the ...
+Link: https://ai.uga.edu/directory/people/yaping-xu
+----------------------------------------
+Date Scraped: 2026-11-02
+Title: 2025 - Project : USDA ARS
+Snippet: Oct 15, 2026 ... Objective 2: Develop methods to guide precision agricultural water management using remote-sensing, climate and soil data. ... UAV multispectral remote sensing ...
+Link: https://www.ars.usda.gov/research/project/?accnNo=441925&fy=2025
+----------------------------------------
+Date Scraped: 2026-11-02
+Title: How Integrated Remote Sensing Is Transforming Plantation Forestry
+Snippet: Oct 22, 2026 ... Modern sensing systems—including satellites, unmanned aerial vehicles (UAVs), airborne, terrestrial, and mobile laser scanning, and high-precision positioning ...
+Link: https://www.preprints.org/manuscript/202610.2268
+----------------------------------------
