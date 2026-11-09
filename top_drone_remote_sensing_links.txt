@@ -428,3 +428,28 @@ Title: How Integrated Remote Sensing Is Transforming Plantation Forestry
 Snippet: Oct 22, 2026 ... Modern sensing systems—including satellites, unmanned aerial vehicles (UAVs), airborne, terrestrial, and mobile laser scanning, and high-precision positioning ...
 Link: https://www.preprints.org/manuscript/202610.2268
 ----------------------------------------
+Date Scraped: 2026-11-09
+Title: Smarter Laser Weeding Technology: Precision Laser Systems
+Snippet: 5 days ago ... Weed control is an essential part of modern agriculture. Traditional methods, such as manual weeding, mechanical cultivation, and chemical herbicides, ...
+Link: https://sinogalvo.com/smarter-laser-weeding-technology/
+----------------------------------------
+Date Scraped: 2026-11-09
+Title: Arcanus Aerial Systems and NeuralDrones sign exclusive ...
+Snippet: Oct 22, 2026 ... Arcanus Aerial Systems and NeuralDrones sign exclusive partnership for AI wildfire detection and post-fire monitoring ... drone station in the Neubäuer Forest ...
+Link: https://skiesmag.com/press-releases/arcanus-aerial-systems-and-neuraldrones-sign-exclusive-partnership-for-ai-wildfire-detection-and-post-fire-monitoring/
+----------------------------------------
+Date Scraped: 2026-11-09
+Title: Application of UAV Remote Sensing in Crop Detection
+Snippet: 5 days ago ... Keywords: UAV remote sensing, crop detection, multi-source sensors, precision agriculture, inversion model. Abstract. Unmanned Aerial Vehicle ...
+Link: https://drpress.org/ojs/index.php/ajst/article/view/36156
+----------------------------------------
+Date Scraped: 2026-11-09
+Title: IDAAS - Purdue Agriculture
+Snippet: Oct 26, 2026 ... From automation and data management to UAVs for remote sensing, you'll explore cutting-edge technologies improving various agricultural sectors. Whether you ...
+Link: https://ag.purdue.edu/idaas/
+----------------------------------------
+Date Scraped: 2026-11-09
+Title: Multi-source satellite remote sensing-driven spatial extrapolation of ...
+Snippet: Oct 30, 2026 ... ... UAV-LiDAR forest structural parameters enhances forest growing stock volume estimation accuracy ... remote sensing is essential for assessing forest carbon sinks.
+Link: https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1974932/full
+----------------------------------------
